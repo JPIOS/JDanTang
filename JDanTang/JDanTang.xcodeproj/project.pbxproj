@@ -7,21 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B4CBBC41EE950BE00273F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBC31EE950BE00273F8B /* AppDelegate.swift */; };
-		1B4CBBC61EE950BE00273F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBC51EE950BE00273F8B /* ViewController.swift */; };
-		1B4CBBC91EE950BE00273F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBBC71EE950BE00273F8B /* Main.storyboard */; };
+		11725D592E3F9D90590CA091 /* Pods_JDanTang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A454948906586D5C63746232 /* Pods_JDanTang.framework */; };
 		1B4CBBCB1EE950BE00273F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBBCA1EE950BE00273F8B /* Assets.xcassets */; };
-		1B4CBBCE1EE950BE00273F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBBCC1EE950BE00273F8B /* LaunchScreen.storyboard */; };
+		1B4CBBE71EE9539C00273F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBE51EE9539B00273F8B /* AppDelegate.swift */; };
+		1B4CBBE81EE9539C00273F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBE61EE9539C00273F8B /* ViewController.swift */; };
+		1B4CBBEB1EE953B600273F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBBE91EE953B600273F8B /* LaunchScreen.storyboard */; };
+		1B4CBBEC1EE953B600273F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBBEA1EE953B600273F8B /* Main.storyboard */; };
+		1B4CBBEF1EE9542200273F8B /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBEE1EE9542200273F8B /* BaseVC.swift */; };
+		1B4CBBF11EE9543400273F8B /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBF01EE9543400273F8B /* BaseCell.swift */; };
+		1B4CBBF31EE9544000273F8B /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBF21EE9544000273F8B /* BaseModel.swift */; };
+		1B4CBBF51EE9544D00273F8B /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBF41EE9544D00273F8B /* BaseVM.swift */; };
+		1B4CBC0A1EE9551700273F8B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC091EE9551700273F8B /* MainTabBarController.swift */; };
+		1B4CBC0C1EE9553C00273F8B /* JNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC0B1EE9553C00273F8B /* JNavigationController.swift */; };
+		1B4CBC0F1EE9555F00273F8B /* JMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC0D1EE9555F00273F8B /* JMineVC.swift */; };
+		1B4CBC101EE9555F00273F8B /* JMineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC0E1EE9555F00273F8B /* JMineVC.xib */; };
+		1B4CBC131EE9557300273F8B /* JLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC111EE9557300273F8B /* JLoginVC.swift */; };
+		1B4CBC141EE9557300273F8B /* JLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC121EE9557300273F8B /* JLoginVC.xib */; };
+		1B4CBC191EE9559700273F8B /* JDanTangVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC171EE9559700273F8B /* JDanTangVC.swift */; };
+		1B4CBC1A1EE9559700273F8B /* JDanTangVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC181EE9559700273F8B /* JDanTangVC.xib */; };
+		1B4CBC1D1EE955A500273F8B /* JHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC1B1EE955A500273F8B /* JHomeVC.swift */; };
+		1B4CBC1E1EE955A500273F8B /* JHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC1C1EE955A500273F8B /* JHomeVC.xib */; };
+		1B4CBC211EE955B500273F8B /* JCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC1F1EE955B500273F8B /* JCategoryVC.swift */; };
+		1B4CBC221EE955B500273F8B /* JCategoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC201EE955B500273F8B /* JCategoryVC.xib */; };
+		1B4CBC251EE957EC00273F8B /* JConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC241EE957EC00273F8B /* JConst.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B4CBBC01EE950BE00273F8B /* JDanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B4CBBC31EE950BE00273F8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B4CBBC51EE950BE00273F8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1B4CBBC81EE950BE00273F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1B4CBBCA1EE950BE00273F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1B4CBBCD1EE950BE00273F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1B4CBBCF1EE950BE00273F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4CBBCA1EE950BE00273F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
+		1B4CBBCF1EE950BE00273F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
+		1B4CBBE51EE9539B00273F8B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B4CBBE61EE9539C00273F8B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B4CBBE91EE953B600273F8B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B4CBBEA1EE953B600273F8B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1B4CBBEE1EE9542200273F8B /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		1B4CBBF01EE9543400273F8B /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		1B4CBBF21EE9544000273F8B /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		1B4CBBF41EE9544D00273F8B /* BaseVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		1B4CBC091EE9551700273F8B /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		1B4CBC0B1EE9553C00273F8B /* JNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JNavigationController.swift; sourceTree = "<group>"; };
+		1B4CBC0D1EE9555F00273F8B /* JMineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMineVC.swift; sourceTree = "<group>"; };
+		1B4CBC0E1EE9555F00273F8B /* JMineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMineVC.xib; sourceTree = "<group>"; };
+		1B4CBC111EE9557300273F8B /* JLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLoginVC.swift; sourceTree = "<group>"; };
+		1B4CBC121EE9557300273F8B /* JLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLoginVC.xib; sourceTree = "<group>"; };
+		1B4CBC171EE9559700273F8B /* JDanTangVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDanTangVC.swift; sourceTree = "<group>"; };
+		1B4CBC181EE9559700273F8B /* JDanTangVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDanTangVC.xib; sourceTree = "<group>"; };
+		1B4CBC1B1EE955A500273F8B /* JHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHomeVC.swift; sourceTree = "<group>"; };
+		1B4CBC1C1EE955A500273F8B /* JHomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHomeVC.xib; sourceTree = "<group>"; };
+		1B4CBC1F1EE955B500273F8B /* JCategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCategoryVC.swift; sourceTree = "<group>"; };
+		1B4CBC201EE955B500273F8B /* JCategoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCategoryVC.xib; sourceTree = "<group>"; };
+		1B4CBC241EE957EC00273F8B /* JConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JConst.swift; sourceTree = "<group>"; };
+		A454948906586D5C63746232 /* Pods_JDanTang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDanTang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2542FE796C70D20C8EE06B9 /* Pods-JDanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDanTang/Pods-JDanTang.release.xcconfig"; sourceTree = "<group>"; };
+		F7F5343B944CCA1771B49487 /* Pods-JDanTang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDanTang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDanTang/Pods-JDanTang.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +67,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11725D592E3F9D90590CA091 /* Pods_JDanTang.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EAC5549622FC89F993287DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A454948906586D5C63746232 /* Pods_JDanTang.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1B4CBBB71EE950BE00273F8B = {
 			isa = PBXGroup;
 			children = (
 				1B4CBBC21EE950BE00273F8B /* JDanTang */,
 				1B4CBBC11EE950BE00273F8B /* Products */,
+				2B554CECCBCF53F85F5B7EE1 /* Pods */,
+				0EAC5549622FC89F993287DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +103,337 @@
 		1B4CBBC21EE950BE00273F8B /* JDanTang */ = {
 			isa = PBXGroup;
 			children = (
-				1B4CBBC31EE950BE00273F8B /* AppDelegate.swift */,
-				1B4CBBC51EE950BE00273F8B /* ViewController.swift */,
-				1B4CBBC71EE950BE00273F8B /* Main.storyboard */,
-				1B4CBBCA1EE950BE00273F8B /* Assets.xcassets */,
-				1B4CBBCC1EE950BE00273F8B /* LaunchScreen.storyboard */,
-				1B4CBBCF1EE950BE00273F8B /* Info.plist */,
+				1B4CBBED1EE953F600273F8B /* FrameWork */,
+				1B4CBBD51EE9538300273F8B /* Class */,
 			);
 			path = JDanTang;
+			sourceTree = "<group>";
+		};
+		1B4CBBD51EE9538300273F8B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBBD61EE9538300273F8B /* Base */,
+				1B4CBBD71EE9538300273F8B /* MainClass */,
+				1B4CBBDE1EE9538300273F8B /* Other */,
+				1B4CBBDF1EE9538300273F8B /* Source */,
+				1B4CBBE01EE9538300273F8B /* Tool(工具) */,
+				1B4CBBE41EE9538300273F8B /* Verder(第三方) */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		1B4CBBD61EE9538300273F8B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBBEE1EE9542200273F8B /* BaseVC.swift */,
+				1B4CBBF01EE9543400273F8B /* BaseCell.swift */,
+				1B4CBBF21EE9544000273F8B /* BaseModel.swift */,
+				1B4CBBF41EE9544D00273F8B /* BaseVM.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1B4CBBD71EE9538300273F8B /* MainClass */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBBDA1EE9538300273F8B /* Home */,
+				1B4CBBD91EE9538300273F8B /* DanTang */,
+				1B4CBBD81EE9538300273F8B /* Category */,
+				1B4CBBDD1EE9538300273F8B /* Me */,
+				1B4CBC231EE955E500273F8B /* --------------- */,
+				1B4CBBDC1EE9538300273F8B /* Main */,
+				1B4CBBDB1EE9538300273F8B /* Login&Register */,
+			);
+			path = MainClass;
+			sourceTree = "<group>";
+		};
+		1B4CBBD81EE9538300273F8B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBBFA1EE954A300273F8B /* Category */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1B4CBBD91EE9538300273F8B /* DanTang */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBBFE1EE954AF00273F8B /* DanTang */,
+			);
+			path = DanTang;
+			sourceTree = "<group>";
+		};
+		1B4CBBDA1EE9538300273F8B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBBF61EE9549200273F8B /* Home */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1B4CBBDB1EE9538300273F8B /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBC061EE954D900273F8B /* Controller */,
+				1B4CBC071EE954D900273F8B /* Model */,
+				1B4CBC081EE954D900273F8B /* View */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		1B4CBBDC1EE9538300273F8B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBC091EE9551700273F8B /* MainTabBarController.swift */,
+				1B4CBC0B1EE9553C00273F8B /* JNavigationController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1B4CBBDD1EE9538300273F8B /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBC0D1EE9555F00273F8B /* JMineVC.swift */,
+				1B4CBC0E1EE9555F00273F8B /* JMineVC.xib */,
+				1B4CBC021EE954C800273F8B /* Me */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		1B4CBBDE1EE9538300273F8B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBBCF1EE950BE00273F8B /* Info.plist */,
+				1B4CBBE91EE953B600273F8B /* LaunchScreen.storyboard */,
+				1B4CBBEA1EE953B600273F8B /* Main.storyboard */,
+				1B4CBBE51EE9539B00273F8B /* AppDelegate.swift */,
+				1B4CBBE61EE9539C00273F8B /* ViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1B4CBBDF1EE9538300273F8B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBBCA1EE950BE00273F8B /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1B4CBBE01EE9538300273F8B /* Tool(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBBE11EE9538300273F8B /* Category(分类) */,
+				1B4CBBE21EE9538300273F8B /* Common */,
+				1B4CBBE31EE9538300273F8B /* MyKit(自定义) */,
+			);
+			path = "Tool(工具)";
+			sourceTree = "<group>";
+		};
+		1B4CBBE11EE9538300273F8B /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Category(分类)";
+			sourceTree = "<group>";
+		};
+		1B4CBBE21EE9538300273F8B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBC241EE957EC00273F8B /* JConst.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1B4CBBE31EE9538300273F8B /* MyKit(自定义) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MyKit(自定义)";
+			sourceTree = "<group>";
+		};
+		1B4CBBE41EE9538300273F8B /* Verder(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Verder(第三方)";
+			sourceTree = "<group>";
+		};
+		1B4CBBED1EE953F600273F8B /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FrameWork;
+			sourceTree = "<group>";
+		};
+		1B4CBBF61EE9549200273F8B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBBF71EE9549200273F8B /* Controller */,
+				1B4CBBF81EE9549200273F8B /* Model */,
+				1B4CBBF91EE9549200273F8B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1B4CBBF71EE9549200273F8B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBC1B1EE955A500273F8B /* JHomeVC.swift */,
+				1B4CBC1C1EE955A500273F8B /* JHomeVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B4CBBF81EE9549200273F8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B4CBBF91EE9549200273F8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B4CBBFA1EE954A300273F8B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBBFB1EE954A300273F8B /* Controller */,
+				1B4CBBFC1EE954A300273F8B /* Model */,
+				1B4CBBFD1EE954A300273F8B /* View */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1B4CBBFB1EE954A300273F8B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBC1F1EE955B500273F8B /* JCategoryVC.swift */,
+				1B4CBC201EE955B500273F8B /* JCategoryVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B4CBBFC1EE954A300273F8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B4CBBFD1EE954A300273F8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B4CBBFE1EE954AF00273F8B /* DanTang */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBBFF1EE954AF00273F8B /* Controller */,
+				1B4CBC001EE954AF00273F8B /* Model */,
+				1B4CBC011EE954AF00273F8B /* View */,
+			);
+			path = DanTang;
+			sourceTree = "<group>";
+		};
+		1B4CBBFF1EE954AF00273F8B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBC171EE9559700273F8B /* JDanTangVC.swift */,
+				1B4CBC181EE9559700273F8B /* JDanTangVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B4CBC001EE954AF00273F8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B4CBC011EE954AF00273F8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B4CBC021EE954C800273F8B /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBC031EE954C800273F8B /* Controller */,
+				1B4CBC041EE954C800273F8B /* Model */,
+				1B4CBC051EE954C800273F8B /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		1B4CBC031EE954C800273F8B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B4CBC041EE954C800273F8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B4CBC051EE954C800273F8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B4CBC061EE954D900273F8B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CBC111EE9557300273F8B /* JLoginVC.swift */,
+				1B4CBC121EE9557300273F8B /* JLoginVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B4CBC071EE954D900273F8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B4CBC081EE954D900273F8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B4CBC231EE955E500273F8B /* --------------- */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "---------------";
+			path = "--------";
+			sourceTree = "<group>";
+		};
+		2B554CECCBCF53F85F5B7EE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7F5343B944CCA1771B49487 /* Pods-JDanTang.debug.xcconfig */,
+				C2542FE796C70D20C8EE06B9 /* Pods-JDanTang.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +443,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B4CBBD21EE950BE00273F8B /* Build configuration list for PBXNativeTarget "JDanTang" */;
 			buildPhases = (
+				B161B989A11F690961D51D54 /* [CP] Check Pods Manifest.lock */,
 				1B4CBBBC1EE950BE00273F8B /* Sources */,
 				1B4CBBBD1EE950BE00273F8B /* Frameworks */,
 				1B4CBBBE1EE950BE00273F8B /* Resources */,
+				AA53014CDAF12361E8CC63C9 /* [CP] Embed Pods Frameworks */,
+				9CE09FE59C96B528C6DD1B33 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,44 +499,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B4CBBCE1EE950BE00273F8B /* LaunchScreen.storyboard in Resources */,
+				1B4CBC101EE9555F00273F8B /* JMineVC.xib in Resources */,
+				1B4CBC221EE955B500273F8B /* JCategoryVC.xib in Resources */,
+				1B4CBC1A1EE9559700273F8B /* JDanTangVC.xib in Resources */,
+				1B4CBC141EE9557300273F8B /* JLoginVC.xib in Resources */,
+				1B4CBBEC1EE953B600273F8B /* Main.storyboard in Resources */,
+				1B4CBC1E1EE955A500273F8B /* JHomeVC.xib in Resources */,
+				1B4CBBEB1EE953B600273F8B /* LaunchScreen.storyboard in Resources */,
 				1B4CBBCB1EE950BE00273F8B /* Assets.xcassets in Resources */,
-				1B4CBBC91EE950BE00273F8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CE09FE59C96B528C6DD1B33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDanTang/Pods-JDanTang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA53014CDAF12361E8CC63C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDanTang/Pods-JDanTang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B161B989A11F690961D51D54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B4CBBBC1EE950BE00273F8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B4CBBC61EE950BE00273F8B /* ViewController.swift in Sources */,
-				1B4CBBC41EE950BE00273F8B /* AppDelegate.swift in Sources */,
+				1B4CBBF11EE9543400273F8B /* BaseCell.swift in Sources */,
+				1B4CBBF51EE9544D00273F8B /* BaseVM.swift in Sources */,
+				1B4CBC0F1EE9555F00273F8B /* JMineVC.swift in Sources */,
+				1B4CBBE71EE9539C00273F8B /* AppDelegate.swift in Sources */,
+				1B4CBC1D1EE955A500273F8B /* JHomeVC.swift in Sources */,
+				1B4CBC211EE955B500273F8B /* JCategoryVC.swift in Sources */,
+				1B4CBC251EE957EC00273F8B /* JConst.swift in Sources */,
+				1B4CBC0A1EE9551700273F8B /* MainTabBarController.swift in Sources */,
+				1B4CBC0C1EE9553C00273F8B /* JNavigationController.swift in Sources */,
+				1B4CBBEF1EE9542200273F8B /* BaseVC.swift in Sources */,
+				1B4CBBE81EE9539C00273F8B /* ViewController.swift in Sources */,
+				1B4CBBF31EE9544000273F8B /* BaseModel.swift in Sources */,
+				1B4CBC131EE9557300273F8B /* JLoginVC.swift in Sources */,
+				1B4CBC191EE9559700273F8B /* JDanTangVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1B4CBBC71EE950BE00273F8B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B4CBBC81EE950BE00273F8B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1B4CBBCC1EE950BE00273F8B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B4CBBCD1EE950BE00273F8B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1B4CBBD01EE950BE00273F8B /* Debug */ = {
@@ -257,6 +678,7 @@
 		};
 		1B4CBBD31EE950BE00273F8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F5343B944CCA1771B49487 /* Pods-JDanTang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MUB55N6K35;
@@ -270,6 +692,7 @@
 		};
 		1B4CBBD41EE950BE00273F8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2542FE796C70D20C8EE06B9 /* Pods-JDanTang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MUB55N6K35;
