@@ -14,9 +14,12 @@ class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let tabbar = UITabBar.appearance();
+        let tabbar = UITabBar.appearance()
         tabbar.tintColor = JMainColor()
         addChirldVCs()
+        
+      
+        
     }
     private func addChirldVCs() {
         
