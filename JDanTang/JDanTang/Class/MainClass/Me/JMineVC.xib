@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JMineVC" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JMineVC" customModule="JDanTang" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -14,7 +18,61 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfB-Jz-2Cn">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Me_ProfileBackground" translatesAutoresizingMaskIntoConstraints="NO" id="fHm-au-dmL">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmf-46-Oqb">
+                            <rect key="frame" x="8" y="24" width="20" height="20"/>
+                            <state key="normal" backgroundImage="Me_message_20x20_"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRd-EY-FZa">
+                            <rect key="frame" x="347" y="24" width="20" height="20"/>
+                            <state key="normal" backgroundImage="Me_settings_20x20_"/>
+                            <connections>
+                                <action selector="ClickSettingBtn:" destination="-1" eventType="touchUpInside" id="IOR-os-NBE"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Me_AvatarPlaceholder_75x75_" translatesAutoresizingMaskIntoConstraints="NO" id="Lnr-gs-CZ3">
+                            <rect key="frame" x="157.5" y="67" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="a6J-j7-Ke6"/>
+                                <constraint firstAttribute="height" constant="60" id="irh-Gn-guP"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="3AE-k1-ekL"/>
+                        <constraint firstItem="Lnr-gs-CZ3" firstAttribute="centerY" secondItem="lfB-Jz-2Cn" secondAttribute="centerY" constant="22" id="73Y-6y-HWn"/>
+                        <constraint firstAttribute="bottom" secondItem="fHm-au-dmL" secondAttribute="bottom" id="A1r-Mb-0P3"/>
+                        <constraint firstAttribute="trailing" secondItem="fHm-au-dmL" secondAttribute="trailing" id="CeN-it-9lm"/>
+                        <constraint firstItem="fHm-au-dmL" firstAttribute="leading" secondItem="lfB-Jz-2Cn" secondAttribute="leading" id="Jxe-3e-5OG"/>
+                        <constraint firstAttribute="trailing" secondItem="DRd-EY-FZa" secondAttribute="trailing" constant="8" id="MwS-Wd-gVw"/>
+                        <constraint firstItem="wmf-46-Oqb" firstAttribute="top" secondItem="lfB-Jz-2Cn" secondAttribute="top" constant="24" id="QWW-8V-rwP"/>
+                        <constraint firstItem="Lnr-gs-CZ3" firstAttribute="centerX" secondItem="lfB-Jz-2Cn" secondAttribute="centerX" id="SaJ-gT-Pbt"/>
+                        <constraint firstItem="fHm-au-dmL" firstAttribute="top" secondItem="lfB-Jz-2Cn" secondAttribute="top" id="clP-1m-S3e"/>
+                        <constraint firstItem="DRd-EY-FZa" firstAttribute="top" secondItem="lfB-Jz-2Cn" secondAttribute="top" constant="24" id="dPR-ur-9jr"/>
+                        <constraint firstItem="wmf-46-Oqb" firstAttribute="leading" secondItem="lfB-Jz-2Cn" secondAttribute="leading" constant="8" id="vGk-8U-mg1"/>
+                    </constraints>
+                </view>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="lfB-Jz-2Cn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="WGe-bL-X0n"/>
+                <constraint firstItem="lfB-Jz-2Cn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ctK-2W-Ght"/>
+                <constraint firstAttribute="trailing" secondItem="lfB-Jz-2Cn" secondAttribute="trailing" id="hTR-yz-ipO"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="Me_AvatarPlaceholder_75x75_" width="75" height="75"/>
+        <image name="Me_ProfileBackground" width="621" height="214"/>
+        <image name="Me_message_20x20_" width="20" height="20"/>
+        <image name="Me_settings_20x20_" width="20" height="20"/>
+    </resources>
 </document>

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		11725D592E3F9D90590CA091 /* Pods_JDanTang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A454948906586D5C63746232 /* Pods_JDanTang.framework */; };
-		1B4CBBCB1EE950BE00273F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBBCA1EE950BE00273F8B /* Assets.xcassets */; };
 		1B4CBBE71EE9539C00273F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBE51EE9539B00273F8B /* AppDelegate.swift */; };
 		1B4CBBE81EE9539C00273F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBE61EE9539C00273F8B /* ViewController.swift */; };
 		1B4CBBEB1EE953B600273F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBBE91EE953B600273F8B /* LaunchScreen.storyboard */; };
@@ -30,11 +29,16 @@
 		1B4CBC211EE955B500273F8B /* JCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC1F1EE955B500273F8B /* JCategoryVC.swift */; };
 		1B4CBC221EE955B500273F8B /* JCategoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC201EE955B500273F8B /* JCategoryVC.xib */; };
 		1B4CBC251EE957EC00273F8B /* JConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC241EE957EC00273F8B /* JConst.swift */; };
+		54500A531EEECE2A00ECF9B5 /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A521EEECE2A00ECF9B5 /* Single.swift */; };
+		54500A591EEED71700ECF9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54500A581EEED71700ECF9B5 /* Assets.xcassets */; };
+		54500A5B1EEED89A00ECF9B5 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A5A1EEED89A00ECF9B5 /* MoreVC.swift */; };
+		54500A5D1EEEDB6000ECF9B5 /* MoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A5C1EEEDB6000ECF9B5 /* MoreItem.swift */; };
+		54500A5F1EEEEF1800ECF9B5 /* MyCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A5E1EEEEF1800ECF9B5 /* MyCardVC.swift */; };
+		54500A611EEEF5FC00ECF9B5 /* SelectSexVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A601EEEF5FC00ECF9B5 /* SelectSexVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B4CBBC01EE950BE00273F8B /* JDanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B4CBBCA1EE950BE00273F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		1B4CBBCF1EE950BE00273F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		1B4CBBE51EE9539B00273F8B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B4CBBE61EE9539C00273F8B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,12 @@
 		1B4CBC1F1EE955B500273F8B /* JCategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCategoryVC.swift; sourceTree = "<group>"; };
 		1B4CBC201EE955B500273F8B /* JCategoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCategoryVC.xib; sourceTree = "<group>"; };
 		1B4CBC241EE957EC00273F8B /* JConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JConst.swift; sourceTree = "<group>"; };
+		54500A521EEECE2A00ECF9B5 /* Single.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Single.swift; sourceTree = "<group>"; };
+		54500A581EEED71700ECF9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54500A5A1EEED89A00ECF9B5 /* MoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreVC.swift; path = "JDanTang/Class/Tool(工具)/Common/MoreVC.swift"; sourceTree = SOURCE_ROOT; };
+		54500A5C1EEEDB6000ECF9B5 /* MoreItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreItem.swift; path = "JDanTang/Class/Tool(工具)/Common/MoreItem.swift"; sourceTree = SOURCE_ROOT; };
+		54500A5E1EEEEF1800ECF9B5 /* MyCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCardVC.swift; path = "JDanTang/Class/Tool(工具)/Common/MyCardVC.swift"; sourceTree = SOURCE_ROOT; };
+		54500A601EEEF5FC00ECF9B5 /* SelectSexVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectSexVC.swift; path = "JDanTang/Class/Tool(工具)/Common/SelectSexVC.swift"; sourceTree = SOURCE_ROOT; };
 		A454948906586D5C63746232 /* Pods_JDanTang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDanTang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2542FE796C70D20C8EE06B9 /* Pods-JDanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDanTang/Pods-JDanTang.release.xcconfig"; sourceTree = "<group>"; };
 		F7F5343B944CCA1771B49487 /* Pods-JDanTang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDanTang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDanTang/Pods-JDanTang.debug.xcconfig"; sourceTree = "<group>"; };
@@ -203,6 +213,7 @@
 		1B4CBBDE1EE9538300273F8B /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				54500A581EEED71700ECF9B5 /* Assets.xcassets */,
 				1B4CBBCF1EE950BE00273F8B /* Info.plist */,
 				1B4CBBE91EE953B600273F8B /* LaunchScreen.storyboard */,
 				1B4CBBEA1EE953B600273F8B /* Main.storyboard */,
@@ -215,7 +226,6 @@
 		1B4CBBDF1EE9538300273F8B /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				1B4CBBCA1EE950BE00273F8B /* Assets.xcassets */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -241,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				1B4CBC241EE957EC00273F8B /* JConst.swift */,
+				54500A521EEECE2A00ECF9B5 /* Single.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -378,6 +389,9 @@
 		1B4CBC031EE954C800273F8B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				54500A5A1EEED89A00ECF9B5 /* MoreVC.swift */,
+				54500A5E1EEEEF1800ECF9B5 /* MyCardVC.swift */,
+				54500A601EEEF5FC00ECF9B5 /* SelectSexVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -385,6 +399,7 @@
 		1B4CBC041EE954C800273F8B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				54500A5C1EEEDB6000ECF9B5 /* MoreItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -505,8 +520,8 @@
 				1B4CBC141EE9557300273F8B /* JLoginVC.xib in Resources */,
 				1B4CBBEC1EE953B600273F8B /* Main.storyboard in Resources */,
 				1B4CBC1E1EE955A500273F8B /* JHomeVC.xib in Resources */,
+				54500A591EEED71700ECF9B5 /* Assets.xcassets in Resources */,
 				1B4CBBEB1EE953B600273F8B /* LaunchScreen.storyboard in Resources */,
-				1B4CBBCB1EE950BE00273F8B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,7 +570,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -565,10 +580,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54500A531EEECE2A00ECF9B5 /* Single.swift in Sources */,
 				1B4CBBF11EE9543400273F8B /* BaseCell.swift in Sources */,
 				1B4CBBF51EE9544D00273F8B /* BaseVM.swift in Sources */,
+				54500A5B1EEED89A00ECF9B5 /* MoreVC.swift in Sources */,
 				1B4CBC0F1EE9555F00273F8B /* JMineVC.swift in Sources */,
+				54500A5D1EEEDB6000ECF9B5 /* MoreItem.swift in Sources */,
+				54500A5F1EEEEF1800ECF9B5 /* MyCardVC.swift in Sources */,
 				1B4CBBE71EE9539C00273F8B /* AppDelegate.swift in Sources */,
+				54500A611EEEF5FC00ECF9B5 /* SelectSexVC.swift in Sources */,
 				1B4CBC1D1EE955A500273F8B /* JHomeVC.swift in Sources */,
 				1B4CBC211EE955B500273F8B /* JCategoryVC.swift in Sources */,
 				1B4CBC251EE957EC00273F8B /* JConst.swift in Sources */,
@@ -723,6 +743,7 @@
 				1B4CBBD41EE950BE00273F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

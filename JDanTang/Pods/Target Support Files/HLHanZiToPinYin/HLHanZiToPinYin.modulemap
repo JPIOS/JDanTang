@@ -1,0 +1,6 @@
+framework module HLHanZiToPinYin {
+  umbrella header "HLHanZiToPinYin-umbrella.h"
+
+  export *
+  module * { export * }
+}

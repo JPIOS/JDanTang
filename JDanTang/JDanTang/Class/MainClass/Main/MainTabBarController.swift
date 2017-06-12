@@ -24,9 +24,9 @@ class MainTabBarController: UITabBarController {
     private func addChirldVCs() {
         
         addChildViewController(childVC: JHomeVC(), title: "J首页", imageName: "TabBar_home_23x23_", selectImageName: "TabBar_home_23x23_selected")
-        addChildViewController(childVC: JHomeVC(), title: "J单品", imageName: "TabBar_gift_23x23_", selectImageName: "TabBar_gift_23x23_selected")
-        addChildViewController(childVC: JHomeVC(), title: "J分类", imageName: "TabBar_category_23x23_", selectImageName: "TabBar_category_23x23_selected")
-        addChildViewController(childVC: JHomeVC(), title: "J我的", imageName: "TabBar_me_boy_23x23_", selectImageName: "TabBar_me_boy_23x23_selected")
+        addChildViewController(childVC: JDanTangVC(), title: "J单品", imageName: "TabBar_gift_23x23_", selectImageName: "TabBar_gift_23x23_selected")
+        addChildViewController(childVC: JCategoryVC(), title: "J分类", imageName: "TabBar_category_23x23_", selectImageName: "TabBar_category_23x23_selected")
+        addChildViewController(childVC: JMineVC(), title: "J我的", imageName: "TabBar_me_boy_23x23_", selectImageName: "TabBar_me_boy_23x23_selected")
         
     }
     
