@@ -9,11 +9,18 @@
 import UIKit
 
 
-class SelectSexVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
+protocol SelectSexDelegate :NSObjectProtocol {
+    func clickSexName(sexName:String)
+    
+}
+
+class SelectSexVC: BaseVC,UITableViewDelegate,UITableViewDataSource {
     
     open var sexName:String?
     var JTab:UITableView?
     var sourceData:NSMutableArray?
+    var delegate :SelectSexDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         loadComment()
@@ -63,12 +70,21 @@ class SelectSexVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         cell?.textLabel?.text = item.title
         cell?.detailTextLabel?.text = item.subTitle
         cell?.textLabel?.textColor = RGB(r: 51, g: 51, b: 51)
-        
+        if item.title == sexName {
+            //不存在重用 简单处理咯--偷懒一下 😜
+            cell?.textLabel?.textColor = UIColor.red
+        }
         return cell!
     }
     
     public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 40
+    }
+    
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let item :MoreItem = sourceData?.object(at: indexPath.row) as! MoreItem
+        delegate?.clickSexName(sexName: item.title!)
+        navigationController?.popViewController(animated: true)
     }
     
     

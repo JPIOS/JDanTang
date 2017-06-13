@@ -1,37 +1,54 @@
 //
-//  MyCardVC.swift
+//  SelectRoleVC.swift
 //  JDanTang
 //
-//  Created by 家朋 on 2017/6/12.
+//  Created by 家朋 on 2017/6/13.
 //  Copyright © 2017年 mac_KY. All rights reserved.
 //
 
 import UIKit
 
-class MyCardVC: BaseVC,UITableViewDelegate,UITableViewDataSource,SelectSexDelegate {
+
+
+
+
+class SelectRoleVC: BaseVC,UITableViewDelegate,UITableViewDataSource {
+    
+    open var roleName:String?
     var JTab:UITableView?
     var sourceData:NSMutableArray?
+    //定义一个闭包。==》使用闭包回调
+    var selectRoleNameBlock:((_ selectRoleName:String) -> Void)?
     override func viewDidLoad() {
         super.viewDidLoad()
         loadComment()
         loadSubView()
-   
+        
     }
     func loadComment()  {
-        title = "我的身份"
+        title = "选择身份"
         sourceData = NSMutableArray.init()
         let item1:MoreItem = MoreItem()
-        item1.isArrow = true
-        item1.title = "性别"
-        item1.subTitle = "女孩"
+        item1.title = "初中生"
+        
         
         let item2:MoreItem = MoreItem()
-        item2.isArrow = true
-        item2.title = "角色"
-        item2.subTitle = "高中生"
-      
+        item2.title = "高中生"
+        
+        let item3:MoreItem = MoreItem()
+        item3.title = "大学生"
+        
+        let item4:MoreItem = MoreItem()
+        item4.title = "职场新人"
+        
+        let item5:MoreItem = MoreItem()
+        item5.title = "自身工作党"
+        
         sourceData?.add(item1)
         sourceData?.add(item2)
+        sourceData?.add(item3)
+        sourceData?.add(item4)
+        sourceData?.add(item5)
     }
     func loadSubView()  {
         
@@ -44,17 +61,9 @@ class MyCardVC: BaseVC,UITableViewDelegate,UITableViewDataSource,SelectSexDelega
         
         
     }
-    // MARK: SelectSexDelegate
-    
-    func clickSexName(sexName :String)
-    {
-        let item :MoreItem = sourceData?.object(at:0) as! MoreItem
-        item.subTitle = sexName
-        JTab?.reloadData()
-    }
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return 2
+        return (sourceData?.count)!
     }
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
@@ -63,14 +72,15 @@ class MyCardVC: BaseVC,UITableViewDelegate,UITableViewDataSource,SelectSexDelega
         if  cell == nil {
             cell = UITableViewCell.init(style: UITableViewCellStyle.value1, reuseIdentifier: cellID)
         }
-       
+        
         let item :MoreItem = sourceData?.object(at: indexPath.row) as! MoreItem
         cell?.textLabel?.text = item.title
         cell?.detailTextLabel?.text = item.subTitle
         cell?.textLabel?.textColor = RGB(r: 51, g: 51, b: 51)
-        cell?.detailTextLabel?.textColor = RGB(r: 151, g: 151, b: 151)
-        cell?.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
-        
+        if item.title == roleName {
+            //不存在重用 简单处理咯--偷懒一下 😜
+            cell?.textLabel?.textColor = UIColor.red
+        }
         return cell!
     }
     
@@ -79,28 +89,10 @@ class MyCardVC: BaseVC,UITableViewDelegate,UITableViewDataSource,SelectSexDelega
     }
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-         tableView.deselectRow(at: indexPath, animated: true)
-        
         let item :MoreItem = sourceData?.object(at: indexPath.row) as! MoreItem
-   
-        if indexPath.row == 0 {
-            let VC :SelectSexVC = SelectSexVC()
-            VC.delegate = self
-            VC.sexName = item.subTitle
-            self.navigationController?.pushViewController(VC, animated: true)
-        }else
-        {
-            let VC :SelectRoleVC = SelectRoleVC()
-            VC.selectRoleNameBlock = {
-                (selectRolename :String) in
-                item.subTitle = selectRolename
-                self.JTab?.reloadData()
-            
-            }
-            VC.roleName = item.subTitle
-            self.navigationController?.pushViewController(VC, animated: true)
-        }
+        selectRoleNameBlock?(item.title!)
+        navigationController?.popViewController(animated: true)
     }
     
-
+    
 }

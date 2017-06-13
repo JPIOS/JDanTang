@@ -8,6 +8,7 @@ PODS:
   - Kingfisher (3.10.1)
   - MJRefresh (3.1.12)
   - SnapKit (3.2.0)
+  - SVProgressHUD (2.1.2)
   - SwiftyJSON (3.1.4)
   - TZImagePickerController (1.8.1)
 
@@ -19,6 +20,7 @@ DEPENDENCIES:
   - Kingfisher
   - MJRefresh
   - SnapKit
+  - SVProgressHUD
   - SwiftyJSON
   - TZImagePickerController
 
@@ -30,9 +32,10 @@ SPEC CHECKSUMS:
   Kingfisher: 33a1b82140fcb14a9fc13f78dfde2a03ff8de8cb
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   TZImagePickerController: 086034156913375cb19c8e4103562f15322c3b36
 
-PODFILE CHECKSUM: 27804052163883179fd3caa5f0182462185d7bd4
+PODFILE CHECKSUM: 0195d8c3aaf58967d1ce23bb30825adb31575ea2
 
 COCOAPODS: 1.3.0.beta.1

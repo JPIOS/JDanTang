@@ -8,12 +8,14 @@
 
 import UIKit
 
-class JMineVC: UIViewController {
+class JMineVC: BaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+
+        
     }
     
     override func  viewWillAppear(_ animated: Bool) {

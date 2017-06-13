@@ -7,6 +7,28 @@
 //
 
 import UIKit
+// pod 中的第三方库
+import Alamofire
+
+import FMDB
+
+import HLHanZiToPinYin
+
+import IQKeyboardManager
+
+import Kingfisher
+
+import MJRefresh
+
+import SnapKit
+
+import SwiftyJSON
+
+import TZImagePickerController
+
+import SVProgressHUD
+
+// 自定义的库和常量
 
 class JConst: NSObject {
 

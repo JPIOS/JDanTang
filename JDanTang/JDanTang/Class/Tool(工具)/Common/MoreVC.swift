@@ -9,7 +9,7 @@
 import UIKit
 
 
-class MoreVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
+class MoreVC: BaseVC, UITableViewDelegate, UITableViewDataSource{
      
     var sourceArr:NSMutableArray?
     var JTab:UITableView?
@@ -136,6 +136,7 @@ class MoreVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
     }
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated:true)
         if indexPath.section == 1 && indexPath.row == 0 {
             let VC:MyCardVC = MyCardVC();
             self.navigationController?.pushViewController(VC, animated: true)

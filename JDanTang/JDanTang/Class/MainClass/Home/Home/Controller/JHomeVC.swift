@@ -8,28 +8,48 @@
 
 import UIKit
 
-class JHomeVC: UIViewController {
+import Alamofire
+class JHomeVC: BaseVC {
 
+    @IBOutlet weak var JTF: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        JTF.setValue(UIColor.red, forKeyPath:"placeholderLabel.textColor")
+        loadData()
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func loadData(){
+        //http://api.dantangapp.com/v1/channels/4/items?   gender=1&generation=1&limit=20&offset=0
+        
+        let id:Int = 4
+        let url = BASE_URL + "v1/channels/\(id)/items"
+        let params = ["gender":1,
+                     "generation":1,
+                     "limit":20,
+                     "offset":0 ]
+        Alamofire
+            .request(url, parameters: params)
+            .responseJSON { (response) in
+                print(response)
+                guard response.result.isSuccess else{
+                    
+                 return
+                }
+                if let value = response.result.value {
+                    
+                }
+        }
+        
+        
+        
+        
+    
     }
-    */
-
+ 
+    
+    
+    
+ 
 }

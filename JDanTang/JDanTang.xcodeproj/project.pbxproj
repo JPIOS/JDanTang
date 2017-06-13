@@ -35,6 +35,7 @@
 		54500A5D1EEEDB6000ECF9B5 /* MoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A5C1EEEDB6000ECF9B5 /* MoreItem.swift */; };
 		54500A5F1EEEEF1800ECF9B5 /* MyCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A5E1EEEEF1800ECF9B5 /* MyCardVC.swift */; };
 		54500A611EEEF5FC00ECF9B5 /* SelectSexVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A601EEEF5FC00ECF9B5 /* SelectSexVC.swift */; };
+		5476A1CB1EF0316600658B92 /* SelectRoleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5476A1CA1EF0316600658B92 /* SelectRoleVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		54500A5C1EEEDB6000ECF9B5 /* MoreItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreItem.swift; path = "JDanTang/Class/Tool(工具)/Common/MoreItem.swift"; sourceTree = SOURCE_ROOT; };
 		54500A5E1EEEEF1800ECF9B5 /* MyCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCardVC.swift; path = "JDanTang/Class/Tool(工具)/Common/MyCardVC.swift"; sourceTree = SOURCE_ROOT; };
 		54500A601EEEF5FC00ECF9B5 /* SelectSexVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectSexVC.swift; path = "JDanTang/Class/Tool(工具)/Common/SelectSexVC.swift"; sourceTree = SOURCE_ROOT; };
+		5476A1CA1EF0316600658B92 /* SelectRoleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectRoleVC.swift; path = "JDanTang/Class/Tool(工具)/Common/SelectRoleVC.swift"; sourceTree = SOURCE_ROOT; };
 		A454948906586D5C63746232 /* Pods_JDanTang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDanTang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2542FE796C70D20C8EE06B9 /* Pods-JDanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDanTang/Pods-JDanTang.release.xcconfig"; sourceTree = "<group>"; };
 		F7F5343B944CCA1771B49487 /* Pods-JDanTang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDanTang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDanTang/Pods-JDanTang.debug.xcconfig"; sourceTree = "<group>"; };
@@ -392,6 +394,7 @@
 				54500A5A1EEED89A00ECF9B5 /* MoreVC.swift */,
 				54500A5E1EEEEF1800ECF9B5 /* MyCardVC.swift */,
 				54500A601EEEF5FC00ECF9B5 /* SelectSexVC.swift */,
+				5476A1CA1EF0316600658B92 /* SelectRoleVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -588,6 +591,7 @@
 				54500A5D1EEEDB6000ECF9B5 /* MoreItem.swift in Sources */,
 				54500A5F1EEEEF1800ECF9B5 /* MyCardVC.swift in Sources */,
 				1B4CBBE71EE9539C00273F8B /* AppDelegate.swift in Sources */,
+				5476A1CB1EF0316600658B92 /* SelectRoleVC.swift in Sources */,
 				54500A611EEEF5FC00ECF9B5 /* SelectSexVC.swift in Sources */,
 				1B4CBC1D1EE955A500273F8B /* JHomeVC.swift in Sources */,
 				1B4CBC211EE955B500273F8B /* JCategoryVC.swift in Sources */,
