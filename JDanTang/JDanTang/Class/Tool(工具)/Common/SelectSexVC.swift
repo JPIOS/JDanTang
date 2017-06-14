@@ -10,7 +10,7 @@ import UIKit
 
 
 protocol SelectSexDelegate :NSObjectProtocol {
-    func clickSexName(sexName:String)
+    func clickSexName(sexName:String) 
     
 }
 

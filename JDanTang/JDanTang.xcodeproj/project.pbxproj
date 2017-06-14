@@ -29,6 +29,10 @@
 		1B4CBC211EE955B500273F8B /* JCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC1F1EE955B500273F8B /* JCategoryVC.swift */; };
 		1B4CBC221EE955B500273F8B /* JCategoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC201EE955B500273F8B /* JCategoryVC.xib */; };
 		1B4CBC251EE957EC00273F8B /* JConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC241EE957EC00273F8B /* JConst.swift */; };
+		1B69123F1EF0C7F800D1D05A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69123E1EF0C7F800D1D05A /* UIView+Extension.swift */; };
+		1B6912411EF0CFB900D1D05A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6912401EF0CFB900D1D05A /* UIViewController+Extension.swift */; };
+		1B6912431EF0CFD700D1D05A /* UITabView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6912421EF0CFD700D1D05A /* UITabView+Extension.swift */; };
+		1B6912451EF0D2C900D1D05A /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6912441EF0D2C900D1D05A /* NetworkTool.swift */; };
 		54500A531EEECE2A00ECF9B5 /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A521EEECE2A00ECF9B5 /* Single.swift */; };
 		54500A591EEED71700ECF9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54500A581EEED71700ECF9B5 /* Assets.xcassets */; };
 		54500A5B1EEED89A00ECF9B5 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A5A1EEED89A00ECF9B5 /* MoreVC.swift */; };
@@ -62,6 +66,10 @@
 		1B4CBC1F1EE955B500273F8B /* JCategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCategoryVC.swift; sourceTree = "<group>"; };
 		1B4CBC201EE955B500273F8B /* JCategoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCategoryVC.xib; sourceTree = "<group>"; };
 		1B4CBC241EE957EC00273F8B /* JConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JConst.swift; sourceTree = "<group>"; };
+		1B69123E1EF0C7F800D1D05A /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "JDanTang/Class/MainClass/Home/Home/Controller/UIView+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		1B6912401EF0CFB900D1D05A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "JDanTang/Class/MainClass/Home/Home/Controller/UIViewController+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		1B6912421EF0CFD700D1D05A /* UITabView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITabView+Extension.swift"; path = "JDanTang/Class/MainClass/Home/Home/Controller/UITabView+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		1B6912441EF0D2C900D1D05A /* NetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
 		54500A521EEECE2A00ECF9B5 /* Single.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Single.swift; sourceTree = "<group>"; };
 		54500A581EEED71700ECF9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54500A5A1EEED89A00ECF9B5 /* MoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreVC.swift; path = "JDanTang/Class/Tool(工具)/Common/MoreVC.swift"; sourceTree = SOURCE_ROOT; };
@@ -124,12 +132,12 @@
 		1B4CBBD51EE9538300273F8B /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				1B4CBBD61EE9538300273F8B /* Base */,
 				1B4CBBD71EE9538300273F8B /* MainClass */,
-				1B4CBBDE1EE9538300273F8B /* Other */,
+				1B4CBBD61EE9538300273F8B /* Base */,
 				1B4CBBDF1EE9538300273F8B /* Source */,
 				1B4CBBE01EE9538300273F8B /* Tool(工具) */,
 				1B4CBBE41EE9538300273F8B /* Verder(第三方) */,
+				1B4CBBDE1EE9538300273F8B /* Other */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -245,6 +253,9 @@
 		1B4CBBE11EE9538300273F8B /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				1B69123E1EF0C7F800D1D05A /* UIView+Extension.swift */,
+				1B6912401EF0CFB900D1D05A /* UIViewController+Extension.swift */,
+				1B6912421EF0CFD700D1D05A /* UITabView+Extension.swift */,
 			);
 			path = "Category(分类)";
 			sourceTree = "<group>";
@@ -254,6 +265,7 @@
 			children = (
 				1B4CBC241EE957EC00273F8B /* JConst.swift */,
 				54500A521EEECE2A00ECF9B5 /* Single.swift */,
+				1B6912441EF0D2C900D1D05A /* NetworkTool.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -584,8 +596,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				54500A531EEECE2A00ECF9B5 /* Single.swift in Sources */,
+				1B6912431EF0CFD700D1D05A /* UITabView+Extension.swift in Sources */,
 				1B4CBBF11EE9543400273F8B /* BaseCell.swift in Sources */,
 				1B4CBBF51EE9544D00273F8B /* BaseVM.swift in Sources */,
+				1B6912451EF0D2C900D1D05A /* NetworkTool.swift in Sources */,
 				54500A5B1EEED89A00ECF9B5 /* MoreVC.swift in Sources */,
 				1B4CBC0F1EE9555F00273F8B /* JMineVC.swift in Sources */,
 				54500A5D1EEEDB6000ECF9B5 /* MoreItem.swift in Sources */,
@@ -595,9 +609,11 @@
 				54500A611EEEF5FC00ECF9B5 /* SelectSexVC.swift in Sources */,
 				1B4CBC1D1EE955A500273F8B /* JHomeVC.swift in Sources */,
 				1B4CBC211EE955B500273F8B /* JCategoryVC.swift in Sources */,
+				1B6912411EF0CFB900D1D05A /* UIViewController+Extension.swift in Sources */,
 				1B4CBC251EE957EC00273F8B /* JConst.swift in Sources */,
 				1B4CBC0A1EE9551700273F8B /* MainTabBarController.swift in Sources */,
 				1B4CBC0C1EE9553C00273F8B /* JNavigationController.swift in Sources */,
+				1B69123F1EF0C7F800D1D05A /* UIView+Extension.swift in Sources */,
 				1B4CBBEF1EE9542200273F8B /* BaseVC.swift in Sources */,
 				1B4CBBE81EE9539C00273F8B /* ViewController.swift in Sources */,
 				1B4CBBF31EE9544000273F8B /* BaseModel.swift in Sources */,

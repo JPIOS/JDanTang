@@ -17,8 +17,8 @@ class SelectRoleVC: BaseVC,UITableViewDelegate,UITableViewDataSource {
     open var roleName:String?
     var JTab:UITableView?
     var sourceData:NSMutableArray?
-    //定义一个闭包。==》使用闭包回调
-    var selectRoleNameBlock:((_ selectRoleName:String) -> Void)?
+    //定义一个闭包-->使用闭包回调
+    var selectRoleNameBlock:((_ selectRoleName:String) -> ())?
     override func viewDidLoad() {
         super.viewDidLoad()
         loadComment()
@@ -42,7 +42,7 @@ class SelectRoleVC: BaseVC,UITableViewDelegate,UITableViewDataSource {
         item4.title = "职场新人"
         
         let item5:MoreItem = MoreItem()
-        item5.title = "自身工作党"
+        item5.title = "资深工作党"
         
         sourceData?.add(item1)
         sourceData?.add(item2)
