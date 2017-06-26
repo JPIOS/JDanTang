@@ -8,10 +8,8 @@ pod 'SwiftyJSON'
 pod 'Kingfisher'
 pod 'SnapKit'
 
+pod ‘ObjectMapper’
 pod 'MJRefresh'
-pod 'FMDB'
-pod 'HLHanZiToPinYin'
-pod 'TZImagePickerController'
 pod 'IQKeyboardManager'
 pod 'SVProgressHUD'
 

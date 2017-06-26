@@ -30,7 +30,7 @@ class JHomeVC: BaseVC {
         //http://api.dantangapp.com/v1/channels/4/items?   gender=1&generation=1&limit=20&offset=0
         
         let id:Int = 4
-        let url = BASE_URL + "v1/channels/\(id)/items"
+        let url =  "v1/channels/\(id)/items"
         let params = ["gender":1,
                       "generation":1,
                       "limit":20,

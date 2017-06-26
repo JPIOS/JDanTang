@@ -15,6 +15,7 @@ import SVProgressHUD
 
 
 
+
 class NetworkTool: NSObject {
     
     /// 单利
@@ -27,8 +28,9 @@ extension NetworkTool {
     
     func getRequest(urlString: String, params: [String: Any], success: @escaping (_ response : JSON)-> (),failture: @escaping (_ error: Error)-> ())  {
         
+        let NewUrlString:String = BASE_URL+urlString
         SVProgressHUD.show()
-        Alamofire.request(urlString, method: .get, parameters: params)
+        Alamofire.request(NewUrlString, method: .get, parameters: params)
             .responseJSON { (response) in
                 SVProgressHUD.dismiss()
                 guard response.result.isSuccess else {
@@ -45,7 +47,7 @@ extension NetworkTool {
                     }
                  //   let data = dict["data"].dictionary
                     
-                    print(dict)
+          
                     success(dict)
                   
                 }

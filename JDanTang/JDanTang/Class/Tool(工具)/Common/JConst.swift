@@ -10,9 +10,8 @@ import UIKit
 // pod 中的第三方库
 import Alamofire
 
-import FMDB
 
-import HLHanZiToPinYin
+
 
 import IQKeyboardManager
 
@@ -24,9 +23,10 @@ import SnapKit
 
 import SwiftyJSON
 
-import TZImagePickerController
 
 import SVProgressHUD
+
+ 
 
 // 自定义的库和常量
 
@@ -56,9 +56,9 @@ let kTitlesViewY: CGFloat = 64
 /// 动画时长
 let kAnimationDuration = 0.25
 /// 屏幕的宽
-let kScreenHeight = UIScreen.main.bounds.size.height
+let kScreenHeight = (UIScreen.main.bounds.size.height)
 /// 屏幕的高
-let kScreenWidth = UIScreen.main.bounds.size.width
+let kScreenWidth = (UIScreen.main.bounds.size.width)
 
 
 /// RGBA的颜色设置

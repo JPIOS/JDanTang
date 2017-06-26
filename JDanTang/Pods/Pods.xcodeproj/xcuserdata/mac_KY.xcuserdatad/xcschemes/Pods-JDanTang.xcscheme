@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AF60B4C815366389222EA3800FAE94D4"
+               BlueprintIdentifier = "886C9F075688A8DD8166E96C9260A1DC"
                BuildableName = "Pods_JDanTang.framework"
                BlueprintName = "Pods-JDanTang"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AF60B4C815366389222EA3800FAE94D4"
+            BlueprintIdentifier = "886C9F075688A8DD8166E96C9260A1DC"
             BuildableName = "Pods_JDanTang.framework"
             BlueprintName = "Pods-JDanTang"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -60,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AF60B4C815366389222EA3800FAE94D4"
-            BuildableName = "Pods_JDanTang.framework"
-            BlueprintName = "Pods-JDanTang"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

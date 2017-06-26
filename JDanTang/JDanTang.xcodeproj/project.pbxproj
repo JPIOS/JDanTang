@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		11725D592E3F9D90590CA091 /* Pods_JDanTang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A454948906586D5C63746232 /* Pods_JDanTang.framework */; };
+		1B4330181F011DE900D29FED /* JDanTangModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4330171F011DE900D29FED /* JDanTangModel.swift */; };
+		1B43301B1F011E0E00D29FED /* JDanTangCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4330191F011E0E00D29FED /* JDanTangCell.swift */; };
+		1B43301C1F011E0E00D29FED /* JDanTangCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B43301A1F011E0E00D29FED /* JDanTangCell.xib */; };
 		1B4CBBE71EE9539C00273F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBE51EE9539B00273F8B /* AppDelegate.swift */; };
 		1B4CBBE81EE9539C00273F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBE61EE9539C00273F8B /* ViewController.swift */; };
 		1B4CBBEB1EE953B600273F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBBE91EE953B600273F8B /* LaunchScreen.storyboard */; };
@@ -23,7 +26,6 @@
 		1B4CBC131EE9557300273F8B /* JLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC111EE9557300273F8B /* JLoginVC.swift */; };
 		1B4CBC141EE9557300273F8B /* JLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC121EE9557300273F8B /* JLoginVC.xib */; };
 		1B4CBC191EE9559700273F8B /* JDanTangVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC171EE9559700273F8B /* JDanTangVC.swift */; };
-		1B4CBC1A1EE9559700273F8B /* JDanTangVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC181EE9559700273F8B /* JDanTangVC.xib */; };
 		1B4CBC1D1EE955A500273F8B /* JHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC1B1EE955A500273F8B /* JHomeVC.swift */; };
 		1B4CBC1E1EE955A500273F8B /* JHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC1C1EE955A500273F8B /* JHomeVC.xib */; };
 		1B4CBC211EE955B500273F8B /* JCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC1F1EE955B500273F8B /* JCategoryVC.swift */; };
@@ -43,6 +45,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B4330081F0105B400D29FED /* JDanTang-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JDanTang-Bridging-Header.h"; sourceTree = "<group>"; };
+		1B4330171F011DE900D29FED /* JDanTangModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDanTangModel.swift; sourceTree = "<group>"; };
+		1B4330191F011E0E00D29FED /* JDanTangCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDanTangCell.swift; sourceTree = "<group>"; };
+		1B43301A1F011E0E00D29FED /* JDanTangCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDanTangCell.xib; sourceTree = "<group>"; };
 		1B4CBBC01EE950BE00273F8B /* JDanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4CBBCF1EE950BE00273F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		1B4CBBE51EE9539B00273F8B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +66,6 @@
 		1B4CBC111EE9557300273F8B /* JLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLoginVC.swift; sourceTree = "<group>"; };
 		1B4CBC121EE9557300273F8B /* JLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLoginVC.xib; sourceTree = "<group>"; };
 		1B4CBC171EE9559700273F8B /* JDanTangVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDanTangVC.swift; sourceTree = "<group>"; };
-		1B4CBC181EE9559700273F8B /* JDanTangVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDanTangVC.xib; sourceTree = "<group>"; };
 		1B4CBC1B1EE955A500273F8B /* JHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHomeVC.swift; sourceTree = "<group>"; };
 		1B4CBC1C1EE955A500273F8B /* JHomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHomeVC.xib; sourceTree = "<group>"; };
 		1B4CBC1F1EE955B500273F8B /* JCategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCategoryVC.swift; sourceTree = "<group>"; };
@@ -100,6 +105,23 @@
 				A454948906586D5C63746232 /* Pods_JDanTang.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B4330111F011D2C00D29FED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B4330171F011DE900D29FED /* JDanTangModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B4330121F011D2C00D29FED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B4330191F011E0E00D29FED /* JDanTangCell.swift */,
+				1B43301A1F011E0E00D29FED /* JDanTangCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		1B4CBBB71EE950BE00273F8B = {
@@ -215,6 +237,7 @@
 			children = (
 				1B4CBC0D1EE9555F00273F8B /* JMineVC.swift */,
 				1B4CBC0E1EE9555F00273F8B /* JMineVC.xib */,
+				54500A5C1EEEDB6000ECF9B5 /* MoreItem.swift */,
 				1B4CBC021EE954C800273F8B /* Me */,
 			);
 			path = Me;
@@ -263,6 +286,7 @@
 		1B4CBBE21EE9538300273F8B /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				1B4330081F0105B400D29FED /* JDanTang-Bridging-Header.h */,
 				1B4CBC241EE957EC00273F8B /* JConst.swift */,
 				54500A521EEECE2A00ECF9B5 /* Single.swift */,
 				1B6912441EF0D2C900D1D05A /* NetworkTool.swift */,
@@ -361,8 +385,8 @@
 			isa = PBXGroup;
 			children = (
 				1B4CBBFF1EE954AF00273F8B /* Controller */,
-				1B4CBC001EE954AF00273F8B /* Model */,
-				1B4CBC011EE954AF00273F8B /* View */,
+				1B4330111F011D2C00D29FED /* Model */,
+				1B4330121F011D2C00D29FED /* View */,
 			);
 			path = DanTang;
 			sourceTree = "<group>";
@@ -371,23 +395,8 @@
 			isa = PBXGroup;
 			children = (
 				1B4CBC171EE9559700273F8B /* JDanTangVC.swift */,
-				1B4CBC181EE9559700273F8B /* JDanTangVC.xib */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		1B4CBC001EE954AF00273F8B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1B4CBC011EE954AF00273F8B /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		1B4CBC021EE954C800273F8B /* Me */ = {
@@ -414,7 +423,6 @@
 		1B4CBC041EE954C800273F8B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				54500A5C1EEEDB6000ECF9B5 /* MoreItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -502,6 +510,7 @@
 					1B4CBBBF1EE950BE00273F8B = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = MUB55N6K35;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -531,10 +540,10 @@
 			files = (
 				1B4CBC101EE9555F00273F8B /* JMineVC.xib in Resources */,
 				1B4CBC221EE955B500273F8B /* JCategoryVC.xib in Resources */,
-				1B4CBC1A1EE9559700273F8B /* JDanTangVC.xib in Resources */,
 				1B4CBC141EE9557300273F8B /* JLoginVC.xib in Resources */,
 				1B4CBBEC1EE953B600273F8B /* Main.storyboard in Resources */,
 				1B4CBC1E1EE955A500273F8B /* JHomeVC.xib in Resources */,
+				1B43301C1F011E0E00D29FED /* JDanTangCell.xib in Resources */,
 				54500A591EEED71700ECF9B5 /* Assets.xcassets in Resources */,
 				1B4CBBEB1EE953B600273F8B /* LaunchScreen.storyboard in Resources */,
 			);
@@ -585,7 +594,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -601,6 +610,7 @@
 				1B4CBBF51EE9544D00273F8B /* BaseVM.swift in Sources */,
 				1B6912451EF0D2C900D1D05A /* NetworkTool.swift in Sources */,
 				54500A5B1EEED89A00ECF9B5 /* MoreVC.swift in Sources */,
+				1B43301B1F011E0E00D29FED /* JDanTangCell.swift in Sources */,
 				1B4CBC0F1EE9555F00273F8B /* JMineVC.swift in Sources */,
 				54500A5D1EEEDB6000ECF9B5 /* MoreItem.swift in Sources */,
 				54500A5F1EEEEF1800ECF9B5 /* MyCardVC.swift in Sources */,
@@ -608,6 +618,7 @@
 				5476A1CB1EF0316600658B92 /* SelectRoleVC.swift in Sources */,
 				54500A611EEEF5FC00ECF9B5 /* SelectSexVC.swift in Sources */,
 				1B4CBC1D1EE955A500273F8B /* JHomeVC.swift in Sources */,
+				1B4330181F011DE900D29FED /* JDanTangModel.swift in Sources */,
 				1B4CBC211EE955B500273F8B /* JCategoryVC.swift in Sources */,
 				1B6912411EF0CFB900D1D05A /* UIViewController+Extension.swift in Sources */,
 				1B4CBC251EE957EC00273F8B /* JConst.swift in Sources */,
@@ -721,11 +732,14 @@
 			baseConfigurationReference = F7F5343B944CCA1771B49487 /* Pods-JDanTang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = MUB55N6K35;
 				INFOPLIST_FILE = JDanTang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dsfdsdsfdsfds.JDanTang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JDanTang/Class/Tool(工具)/Common/JDanTang-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -735,11 +749,13 @@
 			baseConfigurationReference = C2542FE796C70D20C8EE06B9 /* Pods-JDanTang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = MUB55N6K35;
 				INFOPLIST_FILE = JDanTang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dsfdsdsfdsfds.JDanTang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JDanTang/Class/Tool(工具)/Common/JDanTang-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
