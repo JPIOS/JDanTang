@@ -38,6 +38,7 @@ class MainTabBarController: UITabBarController {
         
         let navC = JNavigationController(rootViewController: childVC)
         addChildViewController(navC)
+        
     }
 
 }

@@ -19,7 +19,7 @@ class JDanTangModel: NSObject{
     
     var Description:String?
     var editor_id:String?
-    var favorites_count:String?
+    var favorites_count:Int?
     var id:String?
     var image_urls:Array<String>?
    
@@ -32,6 +32,7 @@ class JDanTangModel: NSObject{
     var purchase_url:String?
     var updated_at:String?
     var url:String?
+    var name:String?
     
     
     
@@ -46,7 +47,7 @@ class JDanTangModel: NSObject{
         
         item.Description = json["description"] as? String;
         item.editor_id = json["editor_id"] as? String;
-        item.favorites_count = json["favorites_count"] as? String;
+        item.favorites_count = json["favorites_count"] as? Int;
         item.id = json["id"] as? String;
         item.image_urls = json["image_urls"] as? Array;
         
@@ -59,6 +60,7 @@ class JDanTangModel: NSObject{
         item.purchase_url = json["purchase_url"] as? String;
         item.updated_at = json["updated_at"] as? String;
         item.url = json["url"] as? String;
+        item.name = json["name"] as? String
         return item;
         
     }

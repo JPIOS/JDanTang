@@ -8,80 +8,93 @@
 
 /* Begin PBXBuildFile section */
 		11725D592E3F9D90590CA091 /* Pods_JDanTang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A454948906586D5C63746232 /* Pods_JDanTang.framework */; };
-		1B4330181F011DE900D29FED /* JDanTangModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4330171F011DE900D29FED /* JDanTangModel.swift */; };
-		1B43301B1F011E0E00D29FED /* JDanTangCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4330191F011E0E00D29FED /* JDanTangCell.swift */; };
-		1B43301C1F011E0E00D29FED /* JDanTangCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B43301A1F011E0E00D29FED /* JDanTangCell.xib */; };
-		1B4CBBE71EE9539C00273F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBE51EE9539B00273F8B /* AppDelegate.swift */; };
-		1B4CBBE81EE9539C00273F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBE61EE9539C00273F8B /* ViewController.swift */; };
-		1B4CBBEB1EE953B600273F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBBE91EE953B600273F8B /* LaunchScreen.storyboard */; };
-		1B4CBBEC1EE953B600273F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBBEA1EE953B600273F8B /* Main.storyboard */; };
-		1B4CBBEF1EE9542200273F8B /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBEE1EE9542200273F8B /* BaseVC.swift */; };
-		1B4CBBF11EE9543400273F8B /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBF01EE9543400273F8B /* BaseCell.swift */; };
-		1B4CBBF31EE9544000273F8B /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBF21EE9544000273F8B /* BaseModel.swift */; };
-		1B4CBBF51EE9544D00273F8B /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBBF41EE9544D00273F8B /* BaseVM.swift */; };
-		1B4CBC0A1EE9551700273F8B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC091EE9551700273F8B /* MainTabBarController.swift */; };
-		1B4CBC0C1EE9553C00273F8B /* JNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC0B1EE9553C00273F8B /* JNavigationController.swift */; };
-		1B4CBC0F1EE9555F00273F8B /* JMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC0D1EE9555F00273F8B /* JMineVC.swift */; };
-		1B4CBC101EE9555F00273F8B /* JMineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC0E1EE9555F00273F8B /* JMineVC.xib */; };
-		1B4CBC131EE9557300273F8B /* JLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC111EE9557300273F8B /* JLoginVC.swift */; };
-		1B4CBC141EE9557300273F8B /* JLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC121EE9557300273F8B /* JLoginVC.xib */; };
-		1B4CBC191EE9559700273F8B /* JDanTangVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC171EE9559700273F8B /* JDanTangVC.swift */; };
-		1B4CBC1D1EE955A500273F8B /* JHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC1B1EE955A500273F8B /* JHomeVC.swift */; };
-		1B4CBC1E1EE955A500273F8B /* JHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC1C1EE955A500273F8B /* JHomeVC.xib */; };
-		1B4CBC211EE955B500273F8B /* JCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC1F1EE955B500273F8B /* JCategoryVC.swift */; };
-		1B4CBC221EE955B500273F8B /* JCategoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CBC201EE955B500273F8B /* JCategoryVC.xib */; };
-		1B4CBC251EE957EC00273F8B /* JConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CBC241EE957EC00273F8B /* JConst.swift */; };
-		1B69123F1EF0C7F800D1D05A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69123E1EF0C7F800D1D05A /* UIView+Extension.swift */; };
-		1B6912411EF0CFB900D1D05A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6912401EF0CFB900D1D05A /* UIViewController+Extension.swift */; };
-		1B6912431EF0CFD700D1D05A /* UITabView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6912421EF0CFD700D1D05A /* UITabView+Extension.swift */; };
-		1B6912451EF0D2C900D1D05A /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6912441EF0D2C900D1D05A /* NetworkTool.swift */; };
-		54500A531EEECE2A00ECF9B5 /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A521EEECE2A00ECF9B5 /* Single.swift */; };
-		54500A591EEED71700ECF9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54500A581EEED71700ECF9B5 /* Assets.xcassets */; };
-		54500A5B1EEED89A00ECF9B5 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A5A1EEED89A00ECF9B5 /* MoreVC.swift */; };
-		54500A5D1EEEDB6000ECF9B5 /* MoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A5C1EEEDB6000ECF9B5 /* MoreItem.swift */; };
-		54500A5F1EEEEF1800ECF9B5 /* MyCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A5E1EEEEF1800ECF9B5 /* MyCardVC.swift */; };
-		54500A611EEEF5FC00ECF9B5 /* SelectSexVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54500A601EEEF5FC00ECF9B5 /* SelectSexVC.swift */; };
-		5476A1CB1EF0316600658B92 /* SelectRoleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5476A1CA1EF0316600658B92 /* SelectRoleVC.swift */; };
+		1B39D3571F07A12800F19127 /* SegCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B39D3551F07A12800F19127 /* SegCollection.swift */; };
+		1B39D3581F07A12800F19127 /* segementBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B39D3561F07A12800F19127 /* segementBar.swift */; };
+		1B39D3671F07AB2400F19127 /* ChoicenessHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B39D3661F07AB2400F19127 /* ChoicenessHeader.swift */; };
+		1B39D36C1F07AB5100F19127 /* ChoicenessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B39D36A1F07AB5100F19127 /* ChoicenessCell.swift */; };
+		1B39D36D1F07AB5100F19127 /* ChoicenessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B39D36B1F07AB5100F19127 /* ChoicenessCell.xib */; };
+		1B39D36F1F07AB5E00F19127 /* ChoicenessSectionhead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B39D36E1F07AB5E00F19127 /* ChoicenessSectionhead.swift */; };
+		1BCA8B991F03D938007FA997 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B5B1F03D937007FA997 /* BaseCell.swift */; };
+		1BCA8B9A1F03D938007FA997 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B5C1F03D937007FA997 /* BaseModel.swift */; };
+		1BCA8B9B1F03D938007FA997 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B5D1F03D937007FA997 /* BaseVC.swift */; };
+		1BCA8B9C1F03D938007FA997 /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B5E1F03D937007FA997 /* BaseVM.swift */; };
+		1BCA8B9D1F03D938007FA997 /* JCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B631F03D937007FA997 /* JCategoryVC.swift */; };
+		1BCA8B9E1F03D938007FA997 /* JCategoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA8B641F03D937007FA997 /* JCategoryVC.xib */; };
+		1BCA8B9F1F03D938007FA997 /* JDanTangDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B681F03D937007FA997 /* JDanTangDetailVC.swift */; };
+		1BCA8BA01F03D938007FA997 /* JDanTangVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B691F03D938007FA997 /* JDanTangVC.swift */; };
+		1BCA8BA11F03D938007FA997 /* JDanTangModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B6B1F03D938007FA997 /* JDanTangModel.swift */; };
+		1BCA8BA21F03D938007FA997 /* JDanTangCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B6D1F03D938007FA997 /* JDanTangCell.swift */; };
+		1BCA8BA31F03D938007FA997 /* JDanTangCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA8B6E1F03D938007FA997 /* JDanTangCell.xib */; };
+		1BCA8BA41F03D938007FA997 /* ChoicenessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B721F03D938007FA997 /* ChoicenessVC.swift */; };
+		1BCA8BA51F03D938007FA997 /* JHomeOthersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B731F03D938007FA997 /* JHomeOthersVC.swift */; };
+		1BCA8BA61F03D938007FA997 /* JHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B741F03D938007FA997 /* JHomeVC.swift */; };
+		1BCA8BA71F03D938007FA997 /* JLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B771F03D938007FA997 /* JLoginVC.swift */; };
+		1BCA8BA81F03D938007FA997 /* JLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA8B781F03D938007FA997 /* JLoginVC.xib */; };
+		1BCA8BA91F03D938007FA997 /* JNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B7A1F03D938007FA997 /* JNavigationController.swift */; };
+		1BCA8BAA1F03D938007FA997 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B7B1F03D938007FA997 /* MainTabBarController.swift */; };
+		1BCA8BAB1F03D938007FA997 /* JMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B7D1F03D938007FA997 /* JMineVC.swift */; };
+		1BCA8BAC1F03D938007FA997 /* JMineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA8B7E1F03D938007FA997 /* JMineVC.xib */; };
+		1BCA8BAD1F03D938007FA997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B811F03D938007FA997 /* AppDelegate.swift */; };
+		1BCA8BAE1F03D938007FA997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA8B821F03D938007FA997 /* Assets.xcassets */; };
+		1BCA8BAF1F03D938007FA997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA8B831F03D938007FA997 /* LaunchScreen.storyboard */; };
+		1BCA8BB01F03D938007FA997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA8B841F03D938007FA997 /* Main.storyboard */; };
+		1BCA8BB11F03D938007FA997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B851F03D938007FA997 /* ViewController.swift */; };
+		1BCA8BB21F03D938007FA997 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B881F03D938007FA997 /* UIView+Extension.swift */; };
+		1BCA8BB31F03D938007FA997 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B891F03D938007FA997 /* UIViewController+Extension.swift */; };
+		1BCA8BB41F03D938007FA997 /* JConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B8B1F03D938007FA997 /* JConst.swift */; };
+		1BCA8BB51F03D938007FA997 /* MoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B8D1F03D938007FA997 /* MoreItem.swift */; };
+		1BCA8BB61F03D938007FA997 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B8E1F03D938007FA997 /* MoreVC.swift */; };
+		1BCA8BB71F03D938007FA997 /* MyCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B8F1F03D938007FA997 /* MyCardVC.swift */; };
+		1BCA8BB81F03D938007FA997 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B901F03D938007FA997 /* NetworkTool.swift */; };
+		1BCA8BB91F03D938007FA997 /* SelectRoleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B911F03D938007FA997 /* SelectRoleVC.swift */; };
+		1BCA8BBA1F03D938007FA997 /* SelectSexVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B921F03D938007FA997 /* SelectSexVC.swift */; };
+		1BCA8BBB1F03D938007FA997 /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B931F03D938007FA997 /* Single.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B4330081F0105B400D29FED /* JDanTang-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JDanTang-Bridging-Header.h"; sourceTree = "<group>"; };
-		1B4330171F011DE900D29FED /* JDanTangModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDanTangModel.swift; sourceTree = "<group>"; };
-		1B4330191F011E0E00D29FED /* JDanTangCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDanTangCell.swift; sourceTree = "<group>"; };
-		1B43301A1F011E0E00D29FED /* JDanTangCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDanTangCell.xib; sourceTree = "<group>"; };
+		1B39D3551F07A12800F19127 /* SegCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegCollection.swift; sourceTree = "<group>"; };
+		1B39D3561F07A12800F19127 /* segementBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = segementBar.swift; sourceTree = "<group>"; };
+		1B39D3661F07AB2400F19127 /* ChoicenessHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicenessHeader.swift; sourceTree = "<group>"; };
+		1B39D36A1F07AB5100F19127 /* ChoicenessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicenessCell.swift; sourceTree = "<group>"; };
+		1B39D36B1F07AB5100F19127 /* ChoicenessCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChoicenessCell.xib; sourceTree = "<group>"; };
+		1B39D36E1F07AB5E00F19127 /* ChoicenessSectionhead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicenessSectionhead.swift; sourceTree = "<group>"; };
 		1B4CBBC01EE950BE00273F8B /* JDanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B4CBBCF1EE950BE00273F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
-		1B4CBBE51EE9539B00273F8B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B4CBBE61EE9539C00273F8B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1B4CBBE91EE953B600273F8B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1B4CBBEA1EE953B600273F8B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		1B4CBBEE1EE9542200273F8B /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
-		1B4CBBF01EE9543400273F8B /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
-		1B4CBBF21EE9544000273F8B /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
-		1B4CBBF41EE9544D00273F8B /* BaseVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
-		1B4CBC091EE9551700273F8B /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		1B4CBC0B1EE9553C00273F8B /* JNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JNavigationController.swift; sourceTree = "<group>"; };
-		1B4CBC0D1EE9555F00273F8B /* JMineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMineVC.swift; sourceTree = "<group>"; };
-		1B4CBC0E1EE9555F00273F8B /* JMineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMineVC.xib; sourceTree = "<group>"; };
-		1B4CBC111EE9557300273F8B /* JLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLoginVC.swift; sourceTree = "<group>"; };
-		1B4CBC121EE9557300273F8B /* JLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLoginVC.xib; sourceTree = "<group>"; };
-		1B4CBC171EE9559700273F8B /* JDanTangVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDanTangVC.swift; sourceTree = "<group>"; };
-		1B4CBC1B1EE955A500273F8B /* JHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHomeVC.swift; sourceTree = "<group>"; };
-		1B4CBC1C1EE955A500273F8B /* JHomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHomeVC.xib; sourceTree = "<group>"; };
-		1B4CBC1F1EE955B500273F8B /* JCategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCategoryVC.swift; sourceTree = "<group>"; };
-		1B4CBC201EE955B500273F8B /* JCategoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCategoryVC.xib; sourceTree = "<group>"; };
-		1B4CBC241EE957EC00273F8B /* JConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JConst.swift; sourceTree = "<group>"; };
-		1B69123E1EF0C7F800D1D05A /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "JDanTang/Class/MainClass/Home/Home/Controller/UIView+Extension.swift"; sourceTree = SOURCE_ROOT; };
-		1B6912401EF0CFB900D1D05A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "JDanTang/Class/MainClass/Home/Home/Controller/UIViewController+Extension.swift"; sourceTree = SOURCE_ROOT; };
-		1B6912421EF0CFD700D1D05A /* UITabView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITabView+Extension.swift"; path = "JDanTang/Class/MainClass/Home/Home/Controller/UITabView+Extension.swift"; sourceTree = SOURCE_ROOT; };
-		1B6912441EF0D2C900D1D05A /* NetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
-		54500A521EEECE2A00ECF9B5 /* Single.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Single.swift; sourceTree = "<group>"; };
-		54500A581EEED71700ECF9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		54500A5A1EEED89A00ECF9B5 /* MoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreVC.swift; path = "JDanTang/Class/Tool(工具)/Common/MoreVC.swift"; sourceTree = SOURCE_ROOT; };
-		54500A5C1EEEDB6000ECF9B5 /* MoreItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreItem.swift; path = "JDanTang/Class/Tool(工具)/Common/MoreItem.swift"; sourceTree = SOURCE_ROOT; };
-		54500A5E1EEEEF1800ECF9B5 /* MyCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCardVC.swift; path = "JDanTang/Class/Tool(工具)/Common/MyCardVC.swift"; sourceTree = SOURCE_ROOT; };
-		54500A601EEEF5FC00ECF9B5 /* SelectSexVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectSexVC.swift; path = "JDanTang/Class/Tool(工具)/Common/SelectSexVC.swift"; sourceTree = SOURCE_ROOT; };
-		5476A1CA1EF0316600658B92 /* SelectRoleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectRoleVC.swift; path = "JDanTang/Class/Tool(工具)/Common/SelectRoleVC.swift"; sourceTree = SOURCE_ROOT; };
+		1BCA8B5B1F03D937007FA997 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		1BCA8B5C1F03D937007FA997 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		1BCA8B5D1F03D937007FA997 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		1BCA8B5E1F03D937007FA997 /* BaseVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		1BCA8B631F03D937007FA997 /* JCategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCategoryVC.swift; sourceTree = "<group>"; };
+		1BCA8B641F03D937007FA997 /* JCategoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCategoryVC.xib; sourceTree = "<group>"; };
+		1BCA8B681F03D937007FA997 /* JDanTangDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDanTangDetailVC.swift; sourceTree = "<group>"; };
+		1BCA8B691F03D938007FA997 /* JDanTangVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDanTangVC.swift; sourceTree = "<group>"; };
+		1BCA8B6B1F03D938007FA997 /* JDanTangModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDanTangModel.swift; sourceTree = "<group>"; };
+		1BCA8B6D1F03D938007FA997 /* JDanTangCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDanTangCell.swift; sourceTree = "<group>"; };
+		1BCA8B6E1F03D938007FA997 /* JDanTangCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDanTangCell.xib; sourceTree = "<group>"; };
+		1BCA8B721F03D938007FA997 /* ChoicenessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicenessVC.swift; sourceTree = "<group>"; };
+		1BCA8B731F03D938007FA997 /* JHomeOthersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHomeOthersVC.swift; sourceTree = "<group>"; };
+		1BCA8B741F03D938007FA997 /* JHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHomeVC.swift; sourceTree = "<group>"; };
+		1BCA8B771F03D938007FA997 /* JLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLoginVC.swift; sourceTree = "<group>"; };
+		1BCA8B781F03D938007FA997 /* JLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLoginVC.xib; sourceTree = "<group>"; };
+		1BCA8B7A1F03D938007FA997 /* JNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JNavigationController.swift; sourceTree = "<group>"; };
+		1BCA8B7B1F03D938007FA997 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		1BCA8B7D1F03D938007FA997 /* JMineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMineVC.swift; sourceTree = "<group>"; };
+		1BCA8B7E1F03D938007FA997 /* JMineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMineVC.xib; sourceTree = "<group>"; };
+		1BCA8B811F03D938007FA997 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BCA8B821F03D938007FA997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BCA8B831F03D938007FA997 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BCA8B841F03D938007FA997 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1BCA8B851F03D938007FA997 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BCA8B881F03D938007FA997 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1BCA8B891F03D938007FA997 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		1BCA8B8B1F03D938007FA997 /* JConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JConst.swift; sourceTree = "<group>"; };
+		1BCA8B8C1F03D938007FA997 /* JDanTang-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JDanTang-Bridging-Header.h"; sourceTree = "<group>"; };
+		1BCA8B8D1F03D938007FA997 /* MoreItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreItem.swift; sourceTree = "<group>"; };
+		1BCA8B8E1F03D938007FA997 /* MoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		1BCA8B8F1F03D938007FA997 /* MyCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardVC.swift; sourceTree = "<group>"; };
+		1BCA8B901F03D938007FA997 /* NetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		1BCA8B911F03D938007FA997 /* SelectRoleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectRoleVC.swift; sourceTree = "<group>"; };
+		1BCA8B921F03D938007FA997 /* SelectSexVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSexVC.swift; sourceTree = "<group>"; };
+		1BCA8B931F03D938007FA997 /* Single.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Single.swift; sourceTree = "<group>"; };
 		A454948906586D5C63746232 /* Pods_JDanTang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDanTang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2542FE796C70D20C8EE06B9 /* Pods-JDanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDanTang/Pods-JDanTang.release.xcconfig"; sourceTree = "<group>"; };
 		F7F5343B944CCA1771B49487 /* Pods-JDanTang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDanTang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDanTang/Pods-JDanTang.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,19 +120,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1B4330111F011D2C00D29FED /* Model */ = {
+		1B39D3541F07A12800F19127 /* JSegSelect */ = {
 			isa = PBXGroup;
 			children = (
-				1B4330171F011DE900D29FED /* JDanTangModel.swift */,
+				1B39D3551F07A12800F19127 /* SegCollection.swift */,
+				1B39D3561F07A12800F19127 /* segementBar.swift */,
+			);
+			path = JSegSelect;
+			sourceTree = "<group>";
+		};
+		1B39D3591F07AA3900F19127 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		1B4330121F011D2C00D29FED /* View */ = {
+		1B39D35A1F07AA3900F19127 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1B4330191F011E0E00D29FED /* JDanTangCell.swift */,
-				1B43301A1F011E0E00D29FED /* JDanTangCell.xib */,
+				1B39D36E1F07AB5E00F19127 /* ChoicenessSectionhead.swift */,
+				1B39D3661F07AB2400F19127 /* ChoicenessHeader.swift */,
+				1B39D36A1F07AB5100F19127 /* ChoicenessCell.swift */,
+				1B39D36B1F07AB5100F19127 /* ChoicenessCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -145,167 +168,10 @@
 		1B4CBBC21EE950BE00273F8B /* JDanTang */ = {
 			isa = PBXGroup;
 			children = (
+				1BCA8B591F03D937007FA997 /* Class */,
 				1B4CBBED1EE953F600273F8B /* FrameWork */,
-				1B4CBBD51EE9538300273F8B /* Class */,
 			);
 			path = JDanTang;
-			sourceTree = "<group>";
-		};
-		1B4CBBD51EE9538300273F8B /* Class */ = {
-			isa = PBXGroup;
-			children = (
-				1B4CBBD71EE9538300273F8B /* MainClass */,
-				1B4CBBD61EE9538300273F8B /* Base */,
-				1B4CBBDF1EE9538300273F8B /* Source */,
-				1B4CBBE01EE9538300273F8B /* Tool(工具) */,
-				1B4CBBE41EE9538300273F8B /* Verder(第三方) */,
-				1B4CBBDE1EE9538300273F8B /* Other */,
-			);
-			path = Class;
-			sourceTree = "<group>";
-		};
-		1B4CBBD61EE9538300273F8B /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				1B4CBBEE1EE9542200273F8B /* BaseVC.swift */,
-				1B4CBBF01EE9543400273F8B /* BaseCell.swift */,
-				1B4CBBF21EE9544000273F8B /* BaseModel.swift */,
-				1B4CBBF41EE9544D00273F8B /* BaseVM.swift */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		1B4CBBD71EE9538300273F8B /* MainClass */ = {
-			isa = PBXGroup;
-			children = (
-				1B4CBBDA1EE9538300273F8B /* Home */,
-				1B4CBBD91EE9538300273F8B /* DanTang */,
-				1B4CBBD81EE9538300273F8B /* Category */,
-				1B4CBBDD1EE9538300273F8B /* Me */,
-				1B4CBC231EE955E500273F8B /* --------------- */,
-				1B4CBBDC1EE9538300273F8B /* Main */,
-				1B4CBBDB1EE9538300273F8B /* Login&Register */,
-			);
-			path = MainClass;
-			sourceTree = "<group>";
-		};
-		1B4CBBD81EE9538300273F8B /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				1B4CBBFA1EE954A300273F8B /* Category */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		1B4CBBD91EE9538300273F8B /* DanTang */ = {
-			isa = PBXGroup;
-			children = (
-				1B4CBBFE1EE954AF00273F8B /* DanTang */,
-			);
-			path = DanTang;
-			sourceTree = "<group>";
-		};
-		1B4CBBDA1EE9538300273F8B /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				1B4CBBF61EE9549200273F8B /* Home */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		1B4CBBDB1EE9538300273F8B /* Login&Register */ = {
-			isa = PBXGroup;
-			children = (
-				1B4CBC061EE954D900273F8B /* Controller */,
-				1B4CBC071EE954D900273F8B /* Model */,
-				1B4CBC081EE954D900273F8B /* View */,
-			);
-			path = "Login&Register";
-			sourceTree = "<group>";
-		};
-		1B4CBBDC1EE9538300273F8B /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				1B4CBC091EE9551700273F8B /* MainTabBarController.swift */,
-				1B4CBC0B1EE9553C00273F8B /* JNavigationController.swift */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		1B4CBBDD1EE9538300273F8B /* Me */ = {
-			isa = PBXGroup;
-			children = (
-				1B4CBC0D1EE9555F00273F8B /* JMineVC.swift */,
-				1B4CBC0E1EE9555F00273F8B /* JMineVC.xib */,
-				54500A5C1EEEDB6000ECF9B5 /* MoreItem.swift */,
-				1B4CBC021EE954C800273F8B /* Me */,
-			);
-			path = Me;
-			sourceTree = "<group>";
-		};
-		1B4CBBDE1EE9538300273F8B /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				54500A581EEED71700ECF9B5 /* Assets.xcassets */,
-				1B4CBBCF1EE950BE00273F8B /* Info.plist */,
-				1B4CBBE91EE953B600273F8B /* LaunchScreen.storyboard */,
-				1B4CBBEA1EE953B600273F8B /* Main.storyboard */,
-				1B4CBBE51EE9539B00273F8B /* AppDelegate.swift */,
-				1B4CBBE61EE9539C00273F8B /* ViewController.swift */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		1B4CBBDF1EE9538300273F8B /* Source */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		1B4CBBE01EE9538300273F8B /* Tool(工具) */ = {
-			isa = PBXGroup;
-			children = (
-				1B4CBBE11EE9538300273F8B /* Category(分类) */,
-				1B4CBBE21EE9538300273F8B /* Common */,
-				1B4CBBE31EE9538300273F8B /* MyKit(自定义) */,
-			);
-			path = "Tool(工具)";
-			sourceTree = "<group>";
-		};
-		1B4CBBE11EE9538300273F8B /* Category(分类) */ = {
-			isa = PBXGroup;
-			children = (
-				1B69123E1EF0C7F800D1D05A /* UIView+Extension.swift */,
-				1B6912401EF0CFB900D1D05A /* UIViewController+Extension.swift */,
-				1B6912421EF0CFD700D1D05A /* UITabView+Extension.swift */,
-			);
-			path = "Category(分类)";
-			sourceTree = "<group>";
-		};
-		1B4CBBE21EE9538300273F8B /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				1B4330081F0105B400D29FED /* JDanTang-Bridging-Header.h */,
-				1B4CBC241EE957EC00273F8B /* JConst.swift */,
-				54500A521EEECE2A00ECF9B5 /* Single.swift */,
-				1B6912441EF0D2C900D1D05A /* NetworkTool.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		1B4CBBE31EE9538300273F8B /* MyKit(自定义) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "MyKit(自定义)";
-			sourceTree = "<group>";
-		};
-		1B4CBBE41EE9538300273F8B /* Verder(第三方) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Verder(第三方)";
 			sourceTree = "<group>";
 		};
 		1B4CBBED1EE953F600273F8B /* FrameWork */ = {
@@ -315,154 +181,242 @@
 			path = FrameWork;
 			sourceTree = "<group>";
 		};
-		1B4CBBF61EE9549200273F8B /* Home */ = {
+		1BCA8B591F03D937007FA997 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				1B4CBBF71EE9549200273F8B /* Controller */,
-				1B4CBBF81EE9549200273F8B /* Model */,
-				1B4CBBF91EE9549200273F8B /* View */,
+				1BCA8B5A1F03D937007FA997 /* Base */,
+				1BCA8B5F1F03D937007FA997 /* MainClass */,
+				1BCA8B801F03D938007FA997 /* Other */,
+				1BCA8B861F03D938007FA997 /* Tool(工具) */,
+				1BCA8B981F03D938007FA997 /* Verder(第三方) */,
 			);
-			path = Home;
+			path = Class;
 			sourceTree = "<group>";
 		};
-		1B4CBBF71EE9549200273F8B /* Controller */ = {
+		1BCA8B5A1F03D937007FA997 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				1B4CBC1B1EE955A500273F8B /* JHomeVC.swift */,
-				1B4CBC1C1EE955A500273F8B /* JHomeVC.xib */,
+				1BCA8B5B1F03D937007FA997 /* BaseCell.swift */,
+				1BCA8B5C1F03D937007FA997 /* BaseModel.swift */,
+				1BCA8B5D1F03D937007FA997 /* BaseVC.swift */,
+				1BCA8B5E1F03D937007FA997 /* BaseVM.swift */,
 			);
-			path = Controller;
+			path = Base;
 			sourceTree = "<group>";
 		};
-		1B4CBBF81EE9549200273F8B /* Model */ = {
+		1BCA8B5F1F03D937007FA997 /* MainClass */ = {
 			isa = PBXGroup;
 			children = (
+				1BCA8B6F1F03D938007FA997 /* Home */,
+				1BCA8B601F03D937007FA997 /* Category */,
+				1BCA8B651F03D937007FA997 /* DanTang */,
+				1BCA8B751F03D938007FA997 /* Login&Register */,
+				1BCA8B791F03D938007FA997 /* Main */,
+				1BCA8B7C1F03D938007FA997 /* Me */,
 			);
-			path = Model;
+			path = MainClass;
 			sourceTree = "<group>";
 		};
-		1B4CBBF91EE9549200273F8B /* View */ = {
+		1BCA8B601F03D937007FA997 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1B4CBBFA1EE954A300273F8B /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				1B4CBBFB1EE954A300273F8B /* Controller */,
-				1B4CBBFC1EE954A300273F8B /* Model */,
-				1B4CBBFD1EE954A300273F8B /* View */,
+				1BCA8B611F03D937007FA997 /* Category */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		1B4CBBFB1EE954A300273F8B /* Controller */ = {
+		1BCA8B611F03D937007FA997 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				1B4CBC1F1EE955B500273F8B /* JCategoryVC.swift */,
-				1B4CBC201EE955B500273F8B /* JCategoryVC.xib */,
+				1BCA8B621F03D937007FA997 /* Controller */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1BCA8B621F03D937007FA997 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BCA8B631F03D937007FA997 /* JCategoryVC.swift */,
+				1BCA8B641F03D937007FA997 /* JCategoryVC.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		1B4CBBFC1EE954A300273F8B /* Model */ = {
+		1BCA8B651F03D937007FA997 /* DanTang */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1B4CBBFD1EE954A300273F8B /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1B4CBBFE1EE954AF00273F8B /* DanTang */ = {
-			isa = PBXGroup;
-			children = (
-				1B4CBBFF1EE954AF00273F8B /* Controller */,
-				1B4330111F011D2C00D29FED /* Model */,
-				1B4330121F011D2C00D29FED /* View */,
+				1BCA8B661F03D937007FA997 /* DanTang */,
 			);
 			path = DanTang;
 			sourceTree = "<group>";
 		};
-		1B4CBBFF1EE954AF00273F8B /* Controller */ = {
+		1BCA8B661F03D937007FA997 /* DanTang */ = {
 			isa = PBXGroup;
 			children = (
-				1B4CBC171EE9559700273F8B /* JDanTangVC.swift */,
+				1BCA8B671F03D937007FA997 /* Controller */,
+				1BCA8B6A1F03D938007FA997 /* Model */,
+				1BCA8B6C1F03D938007FA997 /* View */,
+			);
+			path = DanTang;
+			sourceTree = "<group>";
+		};
+		1BCA8B671F03D937007FA997 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BCA8B681F03D937007FA997 /* JDanTangDetailVC.swift */,
+				1BCA8B691F03D938007FA997 /* JDanTangVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		1B4CBC021EE954C800273F8B /* Me */ = {
+		1BCA8B6A1F03D938007FA997 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1B4CBC031EE954C800273F8B /* Controller */,
-				1B4CBC041EE954C800273F8B /* Model */,
-				1B4CBC051EE954C800273F8B /* View */,
+				1BCA8B6B1F03D938007FA997 /* JDanTangModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BCA8B6C1F03D938007FA997 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BCA8B6D1F03D938007FA997 /* JDanTangCell.swift */,
+				1BCA8B6E1F03D938007FA997 /* JDanTangCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BCA8B6F1F03D938007FA997 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1BCA8B701F03D938007FA997 /* Home */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1BCA8B701F03D938007FA997 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1BCA8B711F03D938007FA997 /* Controller */,
+				1B39D3591F07AA3900F19127 /* Model */,
+				1B39D35A1F07AA3900F19127 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1BCA8B711F03D938007FA997 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BCA8B741F03D938007FA997 /* JHomeVC.swift */,
+				1BCA8B721F03D938007FA997 /* ChoicenessVC.swift */,
+				1BCA8B731F03D938007FA997 /* JHomeOthersVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1BCA8B751F03D938007FA997 /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				1BCA8B761F03D938007FA997 /* Controller */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		1BCA8B761F03D938007FA997 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BCA8B771F03D938007FA997 /* JLoginVC.swift */,
+				1BCA8B781F03D938007FA997 /* JLoginVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1BCA8B791F03D938007FA997 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1BCA8B7A1F03D938007FA997 /* JNavigationController.swift */,
+				1BCA8B7B1F03D938007FA997 /* MainTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1BCA8B7C1F03D938007FA997 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				1BCA8B7D1F03D938007FA997 /* JMineVC.swift */,
+				1BCA8B7E1F03D938007FA997 /* JMineVC.xib */,
+				1BCA8B7F1F03D938007FA997 /* Me */,
 			);
 			path = Me;
 			sourceTree = "<group>";
 		};
-		1B4CBC031EE954C800273F8B /* Controller */ = {
+		1BCA8B7F1F03D938007FA997 /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				54500A5A1EEED89A00ECF9B5 /* MoreVC.swift */,
-				54500A5E1EEEEF1800ECF9B5 /* MyCardVC.swift */,
-				54500A601EEEF5FC00ECF9B5 /* SelectSexVC.swift */,
-				5476A1CA1EF0316600658B92 /* SelectRoleVC.swift */,
 			);
-			path = Controller;
+			path = Me;
 			sourceTree = "<group>";
 		};
-		1B4CBC041EE954C800273F8B /* Model */ = {
+		1BCA8B801F03D938007FA997 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				1BCA8B811F03D938007FA997 /* AppDelegate.swift */,
+				1BCA8B821F03D938007FA997 /* Assets.xcassets */,
+				1BCA8B831F03D938007FA997 /* LaunchScreen.storyboard */,
+				1BCA8B841F03D938007FA997 /* Main.storyboard */,
+				1BCA8B851F03D938007FA997 /* ViewController.swift */,
 			);
-			path = Model;
+			path = Other;
 			sourceTree = "<group>";
 		};
-		1B4CBC051EE954C800273F8B /* View */ = {
+		1BCA8B861F03D938007FA997 /* Tool(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				1BCA8B871F03D938007FA997 /* Category(分类) */,
+				1BCA8B8A1F03D938007FA997 /* Common */,
+				1BCA8B941F03D938007FA997 /* MyKit(自定义) */,
 			);
-			path = View;
+			path = "Tool(工具)";
 			sourceTree = "<group>";
 		};
-		1B4CBC061EE954D900273F8B /* Controller */ = {
+		1BCA8B871F03D938007FA997 /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
-				1B4CBC111EE9557300273F8B /* JLoginVC.swift */,
-				1B4CBC121EE9557300273F8B /* JLoginVC.xib */,
+				1BCA8B881F03D938007FA997 /* UIView+Extension.swift */,
+				1BCA8B891F03D938007FA997 /* UIViewController+Extension.swift */,
 			);
-			path = Controller;
+			path = "Category(分类)";
 			sourceTree = "<group>";
 		};
-		1B4CBC071EE954D900273F8B /* Model */ = {
+		1BCA8B8A1F03D938007FA997 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				1BCA8B8B1F03D938007FA997 /* JConst.swift */,
+				1BCA8B8C1F03D938007FA997 /* JDanTang-Bridging-Header.h */,
+				1BCA8B8D1F03D938007FA997 /* MoreItem.swift */,
+				1BCA8B8E1F03D938007FA997 /* MoreVC.swift */,
+				1BCA8B8F1F03D938007FA997 /* MyCardVC.swift */,
+				1BCA8B901F03D938007FA997 /* NetworkTool.swift */,
+				1BCA8B911F03D938007FA997 /* SelectRoleVC.swift */,
+				1BCA8B921F03D938007FA997 /* SelectSexVC.swift */,
+				1BCA8B931F03D938007FA997 /* Single.swift */,
 			);
-			path = Model;
+			path = Common;
 			sourceTree = "<group>";
 		};
-		1B4CBC081EE954D900273F8B /* View */ = {
+		1BCA8B941F03D938007FA997 /* MyKit(自定义) */ = {
 			isa = PBXGroup;
 			children = (
+				1B39D3541F07A12800F19127 /* JSegSelect */,
 			);
-			path = View;
+			path = "MyKit(自定义)";
 			sourceTree = "<group>";
 		};
-		1B4CBC231EE955E500273F8B /* --------------- */ = {
+		1BCA8B981F03D938007FA997 /* Verder(第三方) */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "---------------";
-			path = "--------";
+			path = "Verder(第三方)";
 			sourceTree = "<group>";
 		};
 		2B554CECCBCF53F85F5B7EE1 /* Pods */ = {
@@ -538,14 +492,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B4CBC101EE9555F00273F8B /* JMineVC.xib in Resources */,
-				1B4CBC221EE955B500273F8B /* JCategoryVC.xib in Resources */,
-				1B4CBC141EE9557300273F8B /* JLoginVC.xib in Resources */,
-				1B4CBBEC1EE953B600273F8B /* Main.storyboard in Resources */,
-				1B4CBC1E1EE955A500273F8B /* JHomeVC.xib in Resources */,
-				1B43301C1F011E0E00D29FED /* JDanTangCell.xib in Resources */,
-				54500A591EEED71700ECF9B5 /* Assets.xcassets in Resources */,
-				1B4CBBEB1EE953B600273F8B /* LaunchScreen.storyboard in Resources */,
+				1BCA8BB01F03D938007FA997 /* Main.storyboard in Resources */,
+				1BCA8BAC1F03D938007FA997 /* JMineVC.xib in Resources */,
+				1BCA8BA31F03D938007FA997 /* JDanTangCell.xib in Resources */,
+				1BCA8BA81F03D938007FA997 /* JLoginVC.xib in Resources */,
+				1BCA8BAF1F03D938007FA997 /* LaunchScreen.storyboard in Resources */,
+				1BCA8B9E1F03D938007FA997 /* JCategoryVC.xib in Resources */,
+				1BCA8BAE1F03D938007FA997 /* Assets.xcassets in Resources */,
+				1B39D36D1F07AB5100F19127 /* ChoicenessCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,32 +558,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54500A531EEECE2A00ECF9B5 /* Single.swift in Sources */,
-				1B6912431EF0CFD700D1D05A /* UITabView+Extension.swift in Sources */,
-				1B4CBBF11EE9543400273F8B /* BaseCell.swift in Sources */,
-				1B4CBBF51EE9544D00273F8B /* BaseVM.swift in Sources */,
-				1B6912451EF0D2C900D1D05A /* NetworkTool.swift in Sources */,
-				54500A5B1EEED89A00ECF9B5 /* MoreVC.swift in Sources */,
-				1B43301B1F011E0E00D29FED /* JDanTangCell.swift in Sources */,
-				1B4CBC0F1EE9555F00273F8B /* JMineVC.swift in Sources */,
-				54500A5D1EEEDB6000ECF9B5 /* MoreItem.swift in Sources */,
-				54500A5F1EEEEF1800ECF9B5 /* MyCardVC.swift in Sources */,
-				1B4CBBE71EE9539C00273F8B /* AppDelegate.swift in Sources */,
-				5476A1CB1EF0316600658B92 /* SelectRoleVC.swift in Sources */,
-				54500A611EEEF5FC00ECF9B5 /* SelectSexVC.swift in Sources */,
-				1B4CBC1D1EE955A500273F8B /* JHomeVC.swift in Sources */,
-				1B4330181F011DE900D29FED /* JDanTangModel.swift in Sources */,
-				1B4CBC211EE955B500273F8B /* JCategoryVC.swift in Sources */,
-				1B6912411EF0CFB900D1D05A /* UIViewController+Extension.swift in Sources */,
-				1B4CBC251EE957EC00273F8B /* JConst.swift in Sources */,
-				1B4CBC0A1EE9551700273F8B /* MainTabBarController.swift in Sources */,
-				1B4CBC0C1EE9553C00273F8B /* JNavigationController.swift in Sources */,
-				1B69123F1EF0C7F800D1D05A /* UIView+Extension.swift in Sources */,
-				1B4CBBEF1EE9542200273F8B /* BaseVC.swift in Sources */,
-				1B4CBBE81EE9539C00273F8B /* ViewController.swift in Sources */,
-				1B4CBBF31EE9544000273F8B /* BaseModel.swift in Sources */,
-				1B4CBC131EE9557300273F8B /* JLoginVC.swift in Sources */,
-				1B4CBC191EE9559700273F8B /* JDanTangVC.swift in Sources */,
+				1BCA8BA41F03D938007FA997 /* ChoicenessVC.swift in Sources */,
+				1BCA8B9A1F03D938007FA997 /* BaseModel.swift in Sources */,
+				1BCA8BAA1F03D938007FA997 /* MainTabBarController.swift in Sources */,
+				1BCA8BA21F03D938007FA997 /* JDanTangCell.swift in Sources */,
+				1BCA8BBA1F03D938007FA997 /* SelectSexVC.swift in Sources */,
+				1BCA8BAB1F03D938007FA997 /* JMineVC.swift in Sources */,
+				1BCA8BB51F03D938007FA997 /* MoreItem.swift in Sources */,
+				1BCA8B9C1F03D938007FA997 /* BaseVM.swift in Sources */,
+				1B39D3571F07A12800F19127 /* SegCollection.swift in Sources */,
+				1BCA8BB61F03D938007FA997 /* MoreVC.swift in Sources */,
+				1BCA8BA61F03D938007FA997 /* JHomeVC.swift in Sources */,
+				1BCA8BB81F03D938007FA997 /* NetworkTool.swift in Sources */,
+				1BCA8BA51F03D938007FA997 /* JHomeOthersVC.swift in Sources */,
+				1BCA8BB31F03D938007FA997 /* UIViewController+Extension.swift in Sources */,
+				1BCA8B9B1F03D938007FA997 /* BaseVC.swift in Sources */,
+				1BCA8BA01F03D938007FA997 /* JDanTangVC.swift in Sources */,
+				1BCA8BA91F03D938007FA997 /* JNavigationController.swift in Sources */,
+				1B39D3581F07A12800F19127 /* segementBar.swift in Sources */,
+				1BCA8BA71F03D938007FA997 /* JLoginVC.swift in Sources */,
+				1BCA8BB41F03D938007FA997 /* JConst.swift in Sources */,
+				1BCA8BB21F03D938007FA997 /* UIView+Extension.swift in Sources */,
+				1B39D3671F07AB2400F19127 /* ChoicenessHeader.swift in Sources */,
+				1BCA8BB11F03D938007FA997 /* ViewController.swift in Sources */,
+				1BCA8BB71F03D938007FA997 /* MyCardVC.swift in Sources */,
+				1B39D36F1F07AB5E00F19127 /* ChoicenessSectionhead.swift in Sources */,
+				1BCA8B991F03D938007FA997 /* BaseCell.swift in Sources */,
+				1BCA8B9F1F03D938007FA997 /* JDanTangDetailVC.swift in Sources */,
+				1BCA8BA11F03D938007FA997 /* JDanTangModel.swift in Sources */,
+				1B39D36C1F07AB5100F19127 /* ChoicenessCell.swift in Sources */,
+				1BCA8BAD1F03D938007FA997 /* AppDelegate.swift in Sources */,
+				1BCA8BBB1F03D938007FA997 /* Single.swift in Sources */,
+				1BCA8BB91F03D938007FA997 /* SelectRoleVC.swift in Sources */,
+				1BCA8B9D1F03D938007FA997 /* JCategoryVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

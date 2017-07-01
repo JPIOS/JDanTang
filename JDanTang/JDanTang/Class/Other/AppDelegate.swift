@@ -20,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.backgroundColor = JGlobalColor()
+        let apprance = UINavigationBar.appearance()
+        apprance.barStyle = UIBarStyle.blackOpaque
         
         window?.rootViewController = MainTabBarController(); 
         return true

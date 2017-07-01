@@ -12,13 +12,18 @@ class JNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationBar.barTintColor = JMainColor()
+        self.navigationBar.tintColor = UIColor.white
+        self.navigationBar.barStyle = UIBarStyle.black
+        self.navigationBar.backgroundImage(for: UIBarPosition.top, barMetrics: UIBarMetrics.default)
         
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        self.navigationBar.barTintColor = JMainColor()
-        self.navigationBar.tintColor = UIColor.white
+      
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

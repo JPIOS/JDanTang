@@ -41,14 +41,14 @@ class JDanTangVC: BaseVC,UICollectionViewDelegate,UICollectionViewDataSource {
     /// 设置collectionView
     func loadCollection() {
         let layout =  UICollectionViewFlowLayout()
-        let insetEdge : CGFloat  = 12
-        let cellEdge  : CGFloat  = 12
+        let insetEdge : CGFloat  = 8
+        let cellEdge  : CGFloat  = 10
         let cul : CGFloat = 2
      
         let cellWidth = (kScreenWidth - ((insetEdge) * 2) - ((cul - 1) * cellEdge))
-        let cellHeight = cellWidth / cul + 60
+        let cellHeight = cellWidth / cul * 1.1 + 60
         
-        layout.itemSize = CGSize.init(width: cellWidth / cul, height: cellHeight)
+        layout.itemSize = CGSize.init(width: cellWidth / cul ,height: cellHeight)
         layout.minimumLineSpacing = cellEdge
         layout.minimumInteritemSpacing = cellEdge
         collection = UICollectionView.init(frame: CGRect.init(x: 0, y: 0, width: kScreenWidth, height: kScreenHeight ), collectionViewLayout: layout)
@@ -56,7 +56,7 @@ class JDanTangVC: BaseVC,UICollectionViewDelegate,UICollectionViewDataSource {
         collection.dataSource = self
         view.addSubview(collection)
         collection.register(UINib.init(nibName: "JDanTangCell", bundle: nil), forCellWithReuseIdentifier: JDanTangCellID)
-        collection.backgroundColor = UIColor.white
+        collection.backgroundColor = JGlobalColor();
         
         collection.contentInset = UIEdgeInsets.init(top: insetEdge, left: insetEdge, bottom: insetEdge, right: insetEdge)
     }

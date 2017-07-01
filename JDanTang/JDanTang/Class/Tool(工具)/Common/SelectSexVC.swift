@@ -8,7 +8,7 @@
 
 import UIKit
 
-
+/// 使用代理回调数据
 protocol SelectSexDelegate :NSObjectProtocol {
     func clickSexName(sexName:String) 
     

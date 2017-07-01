@@ -10,40 +10,46 @@ import UIKit
 
 import Alamofire
 
-class JHomeVC: BaseVC {
+class JHomeVC: BaseVC ,SegCollectionDelegate,SegementBarDelegate{
  
     
-   
-    
-    @IBOutlet weak var JTF: UITextField!
+    var segmemtBarView: segementBar!
+    var segContentView: SegCollection!
     override func viewDidLoad() {
         super.viewDidLoad()
+        //头部的bar
+        let segBar: segementBar = segementBar.init(frame: CGRect.init(x: 0, y: 64, width: kScreenWidth, height: 40), titles: ["精选","数码","家具","美物","护美","美食"], font:14)
+   
+        segBar.delegate = self
+        segmemtBarView = segBar
         
-        JTF.setValue(UIColor.red, forKeyPath:"placeholderLabel.textColor")
-        loadData()
-        
+        //下部的视图-vc
+        let VCArr = [ChoicenessVC(),JHomeOthersVC(),JHomeOthersVC(),JHomeOthersVC(),JHomeOthersVC(),JHomeOthersVC()]
+        let contentView :SegCollection = SegCollection.init(frame: CGRect.init(x: 0, y: 64 + 40, width: kScreenWidth, height: kScreenHeight - 64 - 40 ), contentArr: VCArr)
+        contentView.backgroundColor = UIColor.white
+      
+        contentView.delegate = self
+        segContentView = contentView
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        // self.navigationController?.navigationBar.isHidden = true
+     
+        self.view.addSubview(segmemtBarView)
+        view.addSubview(segContentView)
+    }
     
-    
-    func loadData(){
-        //http://api.dantangapp.com/v1/channels/4/items?   gender=1&generation=1&limit=20&offset=0
+    //MARK: SegCollectionDelegate && SegementBarDelegate
+    func scrollerToDexVC(scorToDex: Int) {
         
-        let id:Int = 4
-        let url =  "v1/channels/\(id)/items"
-        let params = ["gender":1,
-                      "generation":1,
-                      "limit":20,
-                      "offset":0 ]
-        NetworkTool.shareNetworkTool.getRequest(urlString: url, params: params, success: { (results) in
-        
-        }) { (faile) in
-            
-        }
-  }
- 
+        print("scorToDex = \(scorToDex)")
+       segmemtBarView.scrollToDexTitle(titleDex: scorToDex)
+    }
     
-    
-    
+    func clickSegTitleBar(clickTitleDex: Int) {
+        print("clickTitleDex = \(clickTitleDex)")
+        segContentView.clickToDexViewController(viewControllerDex: clickTitleDex)
+    }
+
  
 }
