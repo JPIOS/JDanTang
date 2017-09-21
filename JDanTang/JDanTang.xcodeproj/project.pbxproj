@@ -49,6 +49,15 @@
 		1BCA8BB91F03D938007FA997 /* SelectRoleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B911F03D938007FA997 /* SelectRoleVC.swift */; };
 		1BCA8BBA1F03D938007FA997 /* SelectSexVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B921F03D938007FA997 /* SelectSexVC.swift */; };
 		1BCA8BBB1F03D938007FA997 /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8B931F03D938007FA997 /* Single.swift */; };
+		542EEE9D1F2F5E8200AEB5C7 /* ChoicenessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EEE9C1F2F5E8200AEB5C7 /* ChoicenessModel.swift */; };
+		542F27101F10EBF300EEA15D /* JHomeHeaderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F270F1F10EBF300EEA15D /* JHomeHeaderItem.swift */; };
+		542F27121F114A3100EEA15D /* ChoicenessBannerIten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F27111F114A3100EEA15D /* ChoicenessBannerIten.swift */; };
+		542F27141F114B6A00EEA15D /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F27131F114B6A00EEA15D /* Target.swift */; };
+		542F27161F1150D800EEA15D /* CKCScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F27151F1150D800EEA15D /* CKCScrollView.swift */; };
+		54628A8F1F30B9BF003141A3 /* JHomeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54628A8E1F30B9BF003141A3 /* JHomeDetailVC.swift */; };
+		54628A911F30C9E0003141A3 /* GoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54628A901F30C9E0003141A3 /* GoodDetail.swift */; };
+		54628A931F30CEFB003141A3 /* GoodDetailWebCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54628A921F30CEFB003141A3 /* GoodDetailWebCell.swift */; };
+		54628A951F30CF3C003141A3 /* GoodDetailEvaluateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54628A941F30CF3C003141A3 /* GoodDetailEvaluateCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +104,15 @@
 		1BCA8B911F03D938007FA997 /* SelectRoleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectRoleVC.swift; sourceTree = "<group>"; };
 		1BCA8B921F03D938007FA997 /* SelectSexVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSexVC.swift; sourceTree = "<group>"; };
 		1BCA8B931F03D938007FA997 /* Single.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Single.swift; sourceTree = "<group>"; };
+		542EEE9C1F2F5E8200AEB5C7 /* ChoicenessModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicenessModel.swift; sourceTree = "<group>"; };
+		542F270F1F10EBF300EEA15D /* JHomeHeaderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHomeHeaderItem.swift; sourceTree = "<group>"; };
+		542F27111F114A3100EEA15D /* ChoicenessBannerIten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicenessBannerIten.swift; sourceTree = "<group>"; };
+		542F27131F114B6A00EEA15D /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		542F27151F1150D800EEA15D /* CKCScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CKCScrollView.swift; sourceTree = "<group>"; };
+		54628A8E1F30B9BF003141A3 /* JHomeDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHomeDetailVC.swift; sourceTree = "<group>"; };
+		54628A901F30C9E0003141A3 /* GoodDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodDetail.swift; sourceTree = "<group>"; };
+		54628A921F30CEFB003141A3 /* GoodDetailWebCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodDetailWebCell.swift; sourceTree = "<group>"; };
+		54628A941F30CF3C003141A3 /* GoodDetailEvaluateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodDetailEvaluateCell.swift; sourceTree = "<group>"; };
 		A454948906586D5C63746232 /* Pods_JDanTang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDanTang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2542FE796C70D20C8EE06B9 /* Pods-JDanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDanTang/Pods-JDanTang.release.xcconfig"; sourceTree = "<group>"; };
 		F7F5343B944CCA1771B49487 /* Pods-JDanTang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDanTang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDanTang/Pods-JDanTang.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +150,10 @@
 		1B39D3591F07AA3900F19127 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				542F270F1F10EBF300EEA15D /* JHomeHeaderItem.swift */,
+				542F27111F114A3100EEA15D /* ChoicenessBannerIten.swift */,
+				542EEE9C1F2F5E8200AEB5C7 /* ChoicenessModel.swift */,
+				542F27131F114B6A00EEA15D /* Target.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,6 +161,7 @@
 		1B39D35A1F07AA3900F19127 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				542F27151F1150D800EEA15D /* CKCScrollView.swift */,
 				1B39D36E1F07AB5E00F19127 /* ChoicenessSectionhead.swift */,
 				1B39D3661F07AB2400F19127 /* ChoicenessHeader.swift */,
 				1B39D36A1F07AB5100F19127 /* ChoicenessCell.swift */,
@@ -208,11 +231,11 @@
 			isa = PBXGroup;
 			children = (
 				1BCA8B6F1F03D938007FA997 /* Home */,
-				1BCA8B601F03D937007FA997 /* Category */,
 				1BCA8B651F03D937007FA997 /* DanTang */,
+				1BCA8B601F03D937007FA997 /* Category */,
+				1BCA8B7C1F03D938007FA997 /* Me */,
 				1BCA8B751F03D938007FA997 /* Login&Register */,
 				1BCA8B791F03D938007FA997 /* Main */,
-				1BCA8B7C1F03D938007FA997 /* Me */,
 			);
 			path = MainClass;
 			sourceTree = "<group>";
@@ -265,6 +288,7 @@
 			children = (
 				1BCA8B681F03D937007FA997 /* JDanTangDetailVC.swift */,
 				1BCA8B691F03D938007FA997 /* JDanTangVC.swift */,
+				54628A901F30C9E0003141A3 /* GoodDetail.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -282,6 +306,8 @@
 			children = (
 				1BCA8B6D1F03D938007FA997 /* JDanTangCell.swift */,
 				1BCA8B6E1F03D938007FA997 /* JDanTangCell.xib */,
+				54628A921F30CEFB003141A3 /* GoodDetailWebCell.swift */,
+				54628A941F30CF3C003141A3 /* GoodDetailEvaluateCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -310,6 +336,7 @@
 				1BCA8B741F03D938007FA997 /* JHomeVC.swift */,
 				1BCA8B721F03D938007FA997 /* ChoicenessVC.swift */,
 				1BCA8B731F03D938007FA997 /* JHomeOthersVC.swift */,
+				54628A8E1F30B9BF003141A3 /* JHomeDetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -569,14 +596,19 @@
 				1B39D3571F07A12800F19127 /* SegCollection.swift in Sources */,
 				1BCA8BB61F03D938007FA997 /* MoreVC.swift in Sources */,
 				1BCA8BA61F03D938007FA997 /* JHomeVC.swift in Sources */,
+				542F27161F1150D800EEA15D /* CKCScrollView.swift in Sources */,
+				542F27101F10EBF300EEA15D /* JHomeHeaderItem.swift in Sources */,
 				1BCA8BB81F03D938007FA997 /* NetworkTool.swift in Sources */,
 				1BCA8BA51F03D938007FA997 /* JHomeOthersVC.swift in Sources */,
+				54628A931F30CEFB003141A3 /* GoodDetailWebCell.swift in Sources */,
 				1BCA8BB31F03D938007FA997 /* UIViewController+Extension.swift in Sources */,
 				1BCA8B9B1F03D938007FA997 /* BaseVC.swift in Sources */,
+				54628A8F1F30B9BF003141A3 /* JHomeDetailVC.swift in Sources */,
 				1BCA8BA01F03D938007FA997 /* JDanTangVC.swift in Sources */,
 				1BCA8BA91F03D938007FA997 /* JNavigationController.swift in Sources */,
 				1B39D3581F07A12800F19127 /* segementBar.swift in Sources */,
 				1BCA8BA71F03D938007FA997 /* JLoginVC.swift in Sources */,
+				542EEE9D1F2F5E8200AEB5C7 /* ChoicenessModel.swift in Sources */,
 				1BCA8BB41F03D938007FA997 /* JConst.swift in Sources */,
 				1BCA8BB21F03D938007FA997 /* UIView+Extension.swift in Sources */,
 				1B39D3671F07AB2400F19127 /* ChoicenessHeader.swift in Sources */,
@@ -585,12 +617,16 @@
 				1B39D36F1F07AB5E00F19127 /* ChoicenessSectionhead.swift in Sources */,
 				1BCA8B991F03D938007FA997 /* BaseCell.swift in Sources */,
 				1BCA8B9F1F03D938007FA997 /* JDanTangDetailVC.swift in Sources */,
+				542F27121F114A3100EEA15D /* ChoicenessBannerIten.swift in Sources */,
 				1BCA8BA11F03D938007FA997 /* JDanTangModel.swift in Sources */,
+				542F27141F114B6A00EEA15D /* Target.swift in Sources */,
 				1B39D36C1F07AB5100F19127 /* ChoicenessCell.swift in Sources */,
+				54628A951F30CF3C003141A3 /* GoodDetailEvaluateCell.swift in Sources */,
 				1BCA8BAD1F03D938007FA997 /* AppDelegate.swift in Sources */,
 				1BCA8BBB1F03D938007FA997 /* Single.swift in Sources */,
 				1BCA8BB91F03D938007FA997 /* SelectRoleVC.swift in Sources */,
 				1BCA8B9D1F03D938007FA997 /* JCategoryVC.swift in Sources */,
+				54628A911F30C9E0003141A3 /* GoodDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

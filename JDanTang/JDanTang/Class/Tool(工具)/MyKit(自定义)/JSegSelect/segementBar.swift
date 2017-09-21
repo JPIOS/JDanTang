@@ -18,6 +18,7 @@ protocol SegementBarDelegate :NSObjectProtocol {
 
 class segementBar: UIView, UIScrollViewDelegate {
    
+    
     //open
     var font :CGFloat?
     var titles: Array<String>?
@@ -38,6 +39,13 @@ class segementBar: UIView, UIScrollViewDelegate {
     let cellID = "cellID"
     var selectCell: UIButton!
     
+    
+    func setTitles(titles: [String]) {
+        self.titles = titles
+        loadComment()
+        loadContentView()
+     
+    }
     
     override init(frame: CGRect) {
          super.init(frame: frame)
@@ -83,6 +91,10 @@ class segementBar: UIView, UIScrollViewDelegate {
         lastClickRow = 0
      }
     
+    override func layoutSubviews() {
+       // segmemtScrollview.contentSize = CGSize.init(width: cellWidth * CGFloat((source?.count)!), height: cellHeight )
+    }
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -95,7 +107,7 @@ class segementBar: UIView, UIScrollViewDelegate {
         segmemtScrollview.backgroundColor = UIColor.white
         segmemtScrollview.showsVerticalScrollIndicator = false
         segmemtScrollview.showsHorizontalScrollIndicator = false
-        segmemtScrollview.contentSize = CGSize.init(width: cellWidth * CGFloat((source?.count)!), height: cellHeight - 10)
+        segmemtScrollview.contentSize = CGSize.init(width: cellWidth * CGFloat((source?.count)!), height: cellHeight )
         self.addSubview(segmemtScrollview)
         self.segmemtScrollview = segmemtScrollview
         
@@ -110,10 +122,9 @@ class segementBar: UIView, UIScrollViewDelegate {
             }
         }
         
-        let cellHeight : CGFloat = self.frame.size.height
+        let cellHeight : CGFloat = 40
         
         //添加内容
-
         for i in 0 ..< (source?.count)!  {
             let item : segememntItem =  source![i]
            // let cell = UIView.init(frame: CGRect.init(x: CGFloat(i) * cellWidth, y: 0, width: cellWidth, height: cellHeight));
@@ -129,7 +140,7 @@ class segementBar: UIView, UIScrollViewDelegate {
                 button.isSelected = true
                 selectCell = button;
             }
-            
+            segmemtScrollview.contentSize = CGSize.init(width: cellWidth * CGFloat((titles?.count)!), height: 20 )
             
         }
         

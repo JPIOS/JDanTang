@@ -29,7 +29,9 @@ extension NetworkTool {
     func getRequest(urlString: String, params: [String: Any], success: @escaping (_ response : JSON)-> (),failture: @escaping (_ error: Error)-> ())  {
         
         let NewUrlString:String = BASE_URL+urlString
-        SVProgressHUD.show()
+        print("NewUrlString ==  " + NewUrlString)
+        
+        SVProgressHUD.show(withStatus: "正在加载...")
         Alamofire.request(NewUrlString, method: .get, parameters: params)
             .responseJSON { (response) in
                 SVProgressHUD.dismiss()
@@ -37,6 +39,8 @@ extension NetworkTool {
                     SVProgressHUD.showError(withStatus: "加载失败...")
                     return
                 }
+                
+                
                 if let value = response.result.value {
                     let dict = JSON(value)
                     let code = dict["code"].intValue

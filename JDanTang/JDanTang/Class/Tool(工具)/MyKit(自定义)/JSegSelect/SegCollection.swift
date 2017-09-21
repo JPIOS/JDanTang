@@ -14,22 +14,25 @@ protocol SegCollectionDelegate :NSObjectProtocol {
     
 }
 
-class SegCollection: UIView ,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout{
+class SegCollection: UIView ,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout {
 
-    
     let SegCollectionCellID: String = "SegCollectionCellID"
     var delegate: SegCollectionDelegate? = nil
     var contentArr: Array<UIViewController>?
     var collection: UICollectionView?
     var scrDex: Int?
     
+    func setContentViewCrollers(viewControllers: [UIViewController])  {
+        contentArr = viewControllers;
+        collection?.reloadData()
+    }
+    
     
     // MARK: SET
-   
-    
     override init(frame: CGRect) {
          super.init(frame: frame)
     }
+    
     init(frame: CGRect, contentArr: Array<UIViewController>) {
         super.init(frame: frame)
         self.contentArr = contentArr
